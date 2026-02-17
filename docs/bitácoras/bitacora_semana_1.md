@@ -11,7 +11,7 @@ El equipo trabajó colaborativamente para realizar el entregable H1 con sus resp
 |--------|-------------|---------------|
 
 ## Problema técnico encontrado
-Algunos de los problemas que se presentaron fue el no comprender del todo algunas de las instrucciones para completar algunas secciones del trabajo.
+Un problema importante que surgió fue el no comprender inicialmente algunas de las instrucciones para completar algunas secciones del trabajo.
 
 ## Solución aplicada
 Se optó por aclarar estas dudas con el profesor para cumplir con todos los requisitos y entregar el trabajo de manera completa y en base a lo que se espera.
