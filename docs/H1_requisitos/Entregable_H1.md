@@ -1,7 +1,7 @@
 # Hito 1 – Análisis y Requerimientos
 
 ## Descripción del problema
-Describe el problema de ingeniería que se resolverá.
+Diseñar, implementar y validar la automatización de una cortina industrial considerando: operación (modos manual/automático), seguridad (interlocks y respuesta a fallas), selección de componentes (sensores/actuadores) e interfaz de usuario (HMI).
 
 ## Requerimientos del sistema
 ### Funcionales
@@ -11,7 +11,7 @@ Describe el problema de ingeniería que se resolverá.
 - 
 
 ### Seguridad
-- 
+- Integración de un botón de emergencia que corta la fuente de energía 
 
 ## Diagrama de bloques
 (Inserta imagen o esquema)
