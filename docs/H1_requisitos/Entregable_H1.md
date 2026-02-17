@@ -11,7 +11,8 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 - 
 
 ### Seguridad
-- Integración de un botón de emergencia que corta la fuente de energía 
+- Integración de un botón de emergencia que corta la fuente de energía
+- Señalización de localización de cables y7o componentes delicados
 
 ## Diagrama de bloques
 (Inserta imagen o esquema)
