@@ -21,6 +21,6 @@ Se optó por aclarar estas dudas con el profesor para cumplir con todos los requ
 
 ## Autoevaluación
 - ⬜ Muy perdido
-- ⬜ Con dudas
+- ✅ Con dudas
 - ⬜ Entendiendo
 - ⬜ Dominando
