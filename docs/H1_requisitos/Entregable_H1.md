@@ -12,7 +12,8 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 
 ### Seguridad
 - Integración de un botón de emergencia que corta la fuente de energía
-- Señalización de localización de cables y/o componentes delicados
+- Señalización y protección de cables y/o componentes delicados
+- Semáforo que indica el comportamiento del sistema
 
 ## Diagrama de bloques
 (Inserta imagen o esquema)
