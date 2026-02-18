@@ -4,7 +4,7 @@
 (Sensores / Actuadores / Control / HMI)
 
 ## Actividades realizadas
-El equipo trabajó colaborativamente para realizar el entregable H1 con sus respectivos elementos que lo conforman, entender bien la nueva metodología de trabajo con Github y sus respectivas funciones, así como tener un mayor entendimiento del problema al identificar las herramientas y componentes a utilizar para el proyecto.
+El equipo trabajó colaborativamente para realizar el entregable H1 con sus respectivos elementos que lo conforman, entender bien la nueva metodología de trabajo con Github y sus respectivas funciones, así como tener un mayor entendimiento del problema al identificar la estructura del sistema y componentes del proyecto.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
@@ -18,9 +18,13 @@ Se optó por aclarar estas dudas con el profesor para cumplir con todos los requ
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
-Durante esta semana pudimos aplicar conceptos como los distintos sensores que existen y su funcionamiento
+
+Durante esta semana tuvimos una breve introducción a la mecatrónica con sus elementos claves. 
+Además, pudimos establecer la estructura en la cual se desarrollará el sistema mecatrónico del proyecto tanto a la hora de ...como 
+También, se nos presentaron diferentes sensores con sus respectivas funciones y características.
+
 ## Autoevaluación
 - ⬜ Muy perdido
-- ✅ Con dudas
-- ⬜ Entendiendo
+- ⬜ Con dudas
+- ✅ Entendiendo
 - ⬜ Dominando
