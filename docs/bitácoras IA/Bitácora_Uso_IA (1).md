@@ -3,9 +3,9 @@
 
 ## Información general
 - **Equipo:**  
-- **Integrantes:**  
-- **Semana / Hito:** (H1 / H2 / H3 / H4 / H5)  
-- **Fecha:**  
+- **Integrantes: Daniel Sopeña Zamora...
+- **Semana / Hito:** (H1)  
+- **Fecha: 18/02/26
 
 ---
 
@@ -13,7 +13,7 @@
 Marca una opción:
 
 - ⬜ No se utilizó IA en esta etapa  
-- ⬜ Sí se utilizó IA de forma puntual  
+- ✅ Sí se utilizó IA de forma puntual  
 - ⬜ Sí se utilizó IA de forma recurrente  
 
 > ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
@@ -42,7 +42,7 @@ Ejemplos:
 ## 3️⃣ Herramienta(s) de IA utilizada(s)
 Marca las que apliquen:
 
-- ⬜ ChatGPT  
+- ✅ ChatGPT  
 - ⬜ Copilot  
 - ⬜ Otra (especificar): ______________________  
 
@@ -117,7 +117,7 @@ Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
 - ⬜ Prueba en el sistema real  
-- ⬜ Discusión en equipo  
+- ✅ Discusión en equipo  
 - ⬜ Consulta con el profesor  
 - ⬜ Otra: ______________________  
 
