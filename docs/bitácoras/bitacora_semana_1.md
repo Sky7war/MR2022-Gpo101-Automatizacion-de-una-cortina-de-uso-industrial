@@ -18,7 +18,7 @@ Se optó por aclarar estas dudas con el profesor para cumplir con todos los requ
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
-
+Durante esta semana pudimos aplicar conceptos como los distintos sensores que existen y su funcionamiento
 ## Autoevaluación
 - ⬜ Muy perdido
 - ✅ Con dudas
