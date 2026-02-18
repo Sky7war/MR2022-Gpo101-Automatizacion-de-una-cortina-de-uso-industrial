@@ -2,9 +2,9 @@
 
 ## Equipo
 - Integrante 1 (A00573479) - @Sky7war
-- Integrante 2 (A00) - @usuarioGitHub
-- Integrante 3 (A00) - @usuarioGitHub
-- Integrante 4 (A00) - @usuarioGitHub
+- Integrante 2 (A00573560) - @Modorfeus
+- Integrante 3 (A00573456) - @vicman-6174
+- Integrante 4 (A00574867) - @A00574867
 
 ## Descripción del problema
 (Explica en 4-6 líneas la situación problema y qué se automatiza/mejora)
