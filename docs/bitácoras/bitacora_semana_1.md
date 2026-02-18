@@ -19,7 +19,7 @@ Se optó por aclarar estas dudas con el profesor para cumplir con todos los requ
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
 
-Durante esta semana tuvimos una breve introducción a la mecatrónica con sus elementos claves. 
+Durante esta semana tuvimos una breve introducción a la mecatrónica, sus elementos y respectivos sistemas.
 Además, pudimos establecer la estructura en la cual se desarrollará el sistema mecatrónico del proyecto tanto a la hora de ...como 
 También, se nos presentaron diferentes sensores con sus respectivas funciones y características.
 
