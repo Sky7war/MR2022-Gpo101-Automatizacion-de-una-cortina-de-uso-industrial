@@ -5,7 +5,7 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 
 ## Requerimientos del sistema
 ### Funcionales
-- Lámpara ANDON de 3 colores para indicar el estado de la cortina.
+- Lámpara ANDON, 2 colores para indicar el estado de la cortina (verde: funcionando, rojo: parado).
 - Implementación de botones para subir, bajar y parar la cortina.
 - Activar motor DC 24V por x segundos cuando se cumplan condiciones.
 - Modo automático con ciclo programado de subida, bajada o parar.
@@ -23,6 +23,7 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 - Integración de un botón de emergencia que corta la fuente de energía
 - Señalización y protección de cables y/o componentes delicados
 - Semáforo que indica el comportamiento del sistema
+- El motor no se acciona si el sensor reporta condición inválida.
 
 ## Diagrama de bloques
 (Inserta imagen o esquema)
