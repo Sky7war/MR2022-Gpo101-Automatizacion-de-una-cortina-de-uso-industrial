@@ -5,12 +5,15 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 
 ## Requerimientos del sistema
 ### Funcionales
-- Lámpara ANDON de 3 colores para indicar el estado de la cortina
-- 
+- Lámpara ANDON de 3 colores para indicar el estado de la cortina.
+- Implementación de botones para subir, bajar y parar la cortina.
+- Modo automático con ciclo programado de subida, bajada o parar.
+- Configuración de parámetros como velocidad o tiempos desde la interfaz HMI.
+- Detección de obstáculos cuando la cortina baja.
 
 ### Técnicos
 - Implementación de un PLC Logo V8 12/24 rce de marca siemens
-- Implementación de varios sensores (infrarrojo, magnético de proximidad, de proximidad inductivo y capacitivo) para un buen funcionamiento de la cortina
+- Implementación de sensores (infrarrojo, magnético de proximidad, inductivo y capacitivo) para detección de posición y presencia.
 - Cableado organizado y seguro
 - Motor con engrane 24VDC para la apertura y cierre de la cortina
 - Programa basado en el diagrama de bloques
