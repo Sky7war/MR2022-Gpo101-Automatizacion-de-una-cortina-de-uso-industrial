@@ -26,7 +26,7 @@ La situación problema consiste en realizar un sistema mecatrónico donde se aut
 - Relés (interfaz LOGO -> motor)
 
 ## Diagrama de bloques
-(Inserta imagen en /diagramas y coloca aquí el link)
+(https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/blob/main/docs/H1_requisitos/Entregable_H1.md#diagrama-de-bloques)
 
 ## Mapeo de Entradas/Salidas (I/O)
 - I1: Sensor ____ (tipo ____)
