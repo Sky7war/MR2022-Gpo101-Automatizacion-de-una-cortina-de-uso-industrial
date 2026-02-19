@@ -189,7 +189,8 @@ Indica **cómo se verificó** la información antes de usarla:
 **Evidencia o explicación breve de la verificación:**
 ```
 
-Revisamos y corroboramos entre todos los resultados de cada persona para confirmar que íbamos bien y que concordábamos con los resultados
+Revisamos y corroboramos entre todos los resultados de cada persona para confirmar que íbamos bien y que concordábamos con los resultados obtenidos.
+Las ideas que fueron propuestas por la IA fueron de gran utilidad para el equipo, pues al ser una herramienta con un conocimiento enorme se aprovecharon los recursos generativos que ofrece para buscar nuevas ideas y formas de optimizar nuestro trabajo basados en los conceptos que ofrece, aunque también optamos por usar otros recursos como páginas web que ofrecían un contenido amplio y accesible, a diferencia de la IA, las ideas que propusieron ambos recursos fueron importantes para la creación de este proyecto.
 
 ```
 
@@ -205,8 +206,8 @@ Reflexiona brevemente:
 
 ```
 
-Nos ahorró tiempo y nos ayudó a comprender mejor nuestros resultados del diagrama, además de mejorar la comprensión en parte del problmea
-
+Nos ahorró tiempo y nos ayudó a comprender mejor nuestros resultados del diagrama, además de mejorar la comprensión en parte del problema
+Como equipo trabajamos en como podíamos buscar las soluciones de manera verídica apoyándonos tanto en la IA como en las páginas web, asimismo verificamos que lo que hacíamos era lo correcto, al inicio de la verificación se utilizaron las ideas mas acertadas a lo que fue generado por IA, esas ideas crearon una conexión con los conceptos de este proyecto, y fueron modificadas para que existiera una validación de ideas acorde a lo que se está trabajando.
 ```
 
 ---
