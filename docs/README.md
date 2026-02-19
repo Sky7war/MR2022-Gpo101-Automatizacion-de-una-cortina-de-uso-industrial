@@ -8,7 +8,7 @@
 
 ## Descripción del problema
 (Explica en 4-6 líneas la situación problema y qué se automatiza/mejora)
-
+La situación problema consiste en realizar un sistema mecatrónico donde se automatiza una cortina industrial controlando cuando se cierre y abre mediante sensores, mejorando así 
 ## Objetivo del sistema
 (Qué debe lograr el sistema y bajo qué condiciones)
 
