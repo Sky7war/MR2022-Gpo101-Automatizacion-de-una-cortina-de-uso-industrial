@@ -14,7 +14,7 @@ El equipo trabajó colaborativamente para realizar el entregable H1 con sus resp
 Un problema importante que surgió fue el no comprender inicialmente algunas de las instrucciones para completar algunas secciones del trabajo.
 
 ## Solución aplicada
-Se optó por aclarar estas dudas con el profesor para cumplir con todos los requisitos y entregar el trabajo de manera completa y en base a lo que se espera.
+Se optó por aclarar estas dudas con el profesor e investigar por nuestra cuenta para poder cumplir con todos los requisitos y entregar el trabajo de manera completa y en base a lo que se espera.
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
