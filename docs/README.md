@@ -1,10 +1,10 @@
 # MR2022 - Proyecto Integrador (Siemens LOGO)
 
 ## Equipo
-- Integrante 1 Daniel Sopeña Zamora (A00573479) - @Sky7war
-- Integrante 2 Adolfo Javier Barrientos López (A00573560) - @Modorfeus
-- Integrante 3 Victor Manuel Zamudio Zazueta (A00573456) - @vicman-6174
-- Integrante 4 Leopoldo Ramírez Sánchez (A00574867) - @A00574867
+- Daniel Sopeña Zamora (A00573479) - @Sky7war
+- Adolfo Javier Barrientos López (A00573560) - @Modorfeus
+- Victor Manuel Zamudio Zazueta (A00573456) - @vicman-6174
+- Leopoldo Ramírez Sánchez (A00574867) - @A00574867
 
 ## Descripción del problema
 (Explica en 4-6 líneas la situación problema y qué se automatiza/mejora)
