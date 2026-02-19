@@ -5,10 +5,15 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 
 ## Requerimientos del sistema
 ### Funcionales
+- Lámpara ANDON de 3 colores para indicar el estado de la cortina
 - 
 
 ### Técnicos
-- 
+- Implementación de un PLC Logo V8 12/24 rce de marca siemens
+- Implementación de varios sensores (infrarrojo, magnético de proximidad, de proximidad inductivo y capacitivo) para un buen funcionamiento de la cortina
+- Cableado organizado y seguro
+- Motor con engrane 24VDC para la apertura y cierre de la cortina
+- Programa basado en el diagrama de bloques
 
 ### Seguridad
 - Integración de un botón de emergencia que corta la fuente de energía
@@ -19,4 +24,5 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 (Inserta imagen o esquema)
 
 ## Conclusiones del análisis
-Breve reflexión técnica.
+Este análisis nos permite estructurar de una manera más clara los componentes que conforman el proyecto y cómo éstos trabajarán en conjunto dentro del sistema mecatónico de la cortina, ahora bien, esto sienta las bases para poder empezar con pruebas de los componentes, analizando sus parámetros, verificando que cumpla su funcionamiento junto con los demás, configurándolos de tal forma que cumpla con lo esperado. 
+
