@@ -141,7 +141,7 @@ RS-10: Si durante el movimiento se pierde la señal de alimentación de sensores
 ### 6.1 ¿Qué parte fue útil?
 ```
 
-(escribir aquí)
+Algunas ideas que fueron generadas por la IA fueron de gran ayuda y sirvieron de mucha inspiración para varios puntos importantes que hemos querido agregar a este trabajo inicial, algunas ideas nos sirvieron para comprender mejor los temas que se pudieron analizar a gran detalle tanto en los requisitos como en los valores de entrada y de salida, el uso de la IA para investigar complementó en gran medida el aprendizaje del equipo, y fue una herramienta clave para el análisis conceptual de lo que se está realizando en este proyecto.
 
 ```
 
