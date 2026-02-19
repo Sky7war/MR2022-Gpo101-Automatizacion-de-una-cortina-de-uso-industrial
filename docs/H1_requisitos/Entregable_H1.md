@@ -26,7 +26,8 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 - El motor no se acciona si el sensor reporta condición inválida.
 
 ## Diagrama de bloques
-(Inserta imagen o esquema)
+![085ea6ac-c8a1-46de-853e-d9e94174b5d2](https://github.com/user-attachments/assets/0afdb905-0b1a-4b25-98d7-ba782ae465a9)
+
 
 ## Conclusiones del análisis
 Este análisis nos permite estructurar de una manera más clara los componentes que conforman el proyecto y cómo éstos trabajarán en conjunto dentro del sistema mecatónico de la cortina, ahora bien, esto sienta las bases para poder empezar con pruebas de los componentes, analizando sus parámetros, verificando que cumpla su funcionamiento junto con los demás, configurándolos de tal forma que cumpla con lo esperado. 
