@@ -7,7 +7,7 @@
 - Leopoldo Ramírez Sánchez (A00574867) - @A00574867
 
 ## Descripción del problema
-La situación problema consiste en realizar un sistema mecatrónico donde se diseña, implementa y valida la automatización de una cortina industrial considerando elementos como seguridad, operación, componentes e interfaz de usuario, controlando cuándo se cierra y abre mediante sensores, mejorando así la eficiencia operativa, reduciendo la intervención manual y aumentando la seguridad del usuario. Además, el sistema permite configurar parámetros como tiempos y límites de movimiento, garantizando un funcionamiento adaptable a distintas dimensiones y requerimientos de operación.
+La situación problema consiste en realizar un sistema mecatrónico donde se diseña, implementa y valida la automatización de una cortina industrial considerando elementos como seguridad, operación, componentes e interfaz de usuario, controlando cuándo se cierra y abre mediante sensores, mejorando así la eficiencia operativa, reduciendo la intervención manual y aumentando la seguridad del usuario. Además, con la opción de poder configurar parámetros como tiempos y velocidades, garantizando un funcionamiento adaptable a los requerimientos.
 
 ## Objetivo del sistema
 (Qué debe lograr el sistema y bajo qué condiciones)
