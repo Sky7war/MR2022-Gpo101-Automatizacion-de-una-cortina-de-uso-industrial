@@ -1,10 +1,10 @@
 # MR2022 - Proyecto Integrador (Siemens LOGO)
 
 ## Equipo
-- Integrante 1 (A00573479) - @Sky7war
-- Integrante 2 (A00573560) - @Modorfeus
-- Integrante 3 (A00573456) - @vicman-6174
-- Integrante 4 (A00574867) - @A00574867
+- Integrante 1 Daniel Sopeña Zamora (A00573479) - @Sky7war
+- Integrante 2 Adolfo Javier Barrientos López (A00573560) - @Modorfeus
+- Integrante 3 Victor Manuel Zamudio Zazueta (A00573456) - @vicman-6174
+- Integrante 4 Leopoldo Ramírez Sánchez (A00574867) - @A00574867
 
 ## Descripción del problema
 (Explica en 4-6 líneas la situación problema y qué se automatiza/mejora)
@@ -17,8 +17,8 @@ La situación problema consiste en realizar un sistema mecatrónico donde se aut
 - Siemens LOGO (modelo: 12/24 rce)
 
 ### Sensores (selección final)
-- Sensor 1: (tipo: inductivo/capacitivo/óptico/magnético) | función: ____ | criterio: ____
-- Sensor 2: ...
+- Sensor de proximidad (tipo: inductivo/capacitivo/óptico/magnético) | función: ____ | criterio: ____
+- Sensor de proximidad (tipo: capacitivo) | función: ____ | criterio: ____
 
 ### Actuadores
 - Motor DC 24 V (función: ____)
