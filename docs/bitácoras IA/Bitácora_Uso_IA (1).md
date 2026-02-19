@@ -3,7 +3,7 @@
 
 ## Información general
 - **Equipo:**  
-- **Integrantes: Daniel Sopeña Zamora...
+- **Integrantes: Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta 
 - **Semana / Hito:** (H1)  
 - **Fecha: 18/02/26
 
@@ -33,7 +33,7 @@ Ejemplos:
 **Descripción del objetivo:**
 ```
 
-(escribir aquí)
+La IA se utilizó para la generación de ideas para encontrar soluciones más óptimas acorde a lo que queremos buscar como objetivo principal para la cortina, se utilizó también para buscar una comprensión de varios términos útiles para la investigación, tratando de buscar un significado que esté acorde a lo que queremos definir correctamente para este proyecto. 
 
 ```
 
@@ -56,8 +56,8 @@ Copia **solo los prompts más importantes** (no todos).
 **Prompt 1:**
 ```
 
-(pegar prompt aquí)
-
+Crea 10 ejemplos de requisitos de seguridad para una cortina industrial que funciona con un plc LOGO con clemas
+(imagen adjuntada del diagrama)
 ```
 
 **Prompt 2 (opcional):**
@@ -74,7 +74,63 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 
 ```
 
-(resumen o extracto aquí)
+Estás trabajando con un Siemens LOGO! alimentado con 24VDC, con entradas I1–I8 y salidas Q1–Q4 cableadas a sensores y actuadores (S1–S8).
+Veo que tienes:
+
+Sensores capacitivos e inductivos
+
+Sensores magnéticos (cortina arriba/medio/abajo)
+
+Salidas con protección
+
+Clemas distribuidoras de 24V y 0V
+
+Ahora sí, te actualizo los 10 requisitos de seguridad completamente alineados a TU esquema real 👇
+
+🛑 Requisitos de Seguridad – Cortina con LOGO! y Clemas (Versión Ajustada al Diagrama)
+1️⃣ Estado seguro al energizar
+
+RS-01: Al aplicar alimentación 24VDC al PLC, todas las salidas Q1–Q4 deberán iniciar en estado desactivado.
+
+2️⃣ Interbloqueo de salidas
+
+RS-02: El sistema no deberá activar simultáneamente Q1 (subir) y Q2 (bajar).
+
+(Protección del motor y relevadores)
+
+3️⃣ Supervisión de sensor magnético superior
+
+RS-03: Si el sensor S4 (Cortina ARRIBA) está activo, el sistema deberá bloquear cualquier orden de subida.
+
+4️⃣ Supervisión de sensor magnético inferior
+
+RS-04: Si el sensor S6 (Cortina ABAJO) está activo, el sistema deberá bloquear cualquier orden de bajada.
+
+5️⃣ Protección por tiempo de recorrido
+
+RS-05: Si después de activar una orden de movimiento no se detecta cambio en los sensores S4, S5 o S6 dentro del tiempo esperado, el PLC deberá desactivar el motor.
+
+6️⃣ Bloqueo por falla de sensor crítico
+
+RS-06: Si los sensores S4 y S6 se detectan activos simultáneamente, el sistema deberá entrar en estado de bloqueo.
+
+(Condición físicamente imposible → error lógico)
+
+7️⃣ Protección ante activación permanente
+
+RS-07: Si el sensor capacitivo (S1) permanece activado por más de X segundos, el sistema no deberá mantener movimiento continuo.
+
+8️⃣ Reinicio controlado
+
+RS-08: Después de una interrupción de energía, el sistema deberá requerir una nueva señal válida para iniciar movimiento.
+
+9️⃣ Separación de potencia y señal
+
+RS-09: El cableado de las salidas Q1–Q4 deberá estar separado físicamente del cableado de entradas I1–I8 en las clemas.
+
+🔟 Estado seguro ante pérdida de señal
+
+RS-10: Si durante el movimiento se pierde la señal de alimentación de sensores, el PLC deberá desactivar las salidas de movimiento.
 
 ```
 
