@@ -8,7 +8,8 @@ El equipo trabajó colaborativamente para realizar el entregable H1 con sus resp
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
-|--------|-------------|---------------|
+| Uso de IA | Uso de manuales y consulta con personas con experiencia en este proyecto | Se decidió usar IA para expandir las ideas que teníamos acerca de los requisitos a verificar |
+
 
 ## Problema técnico encontrado
 Un problema importante que surgió fue el no comprender inicialmente algunas de las instrucciones para completar algunas secciones del trabajo.
