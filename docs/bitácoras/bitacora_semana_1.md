@@ -7,7 +7,7 @@
 El equipo trabajó colaborativamente para realizar el entregable H1 con sus respectivos elementos que lo conforman, entender bien la nueva metodología de trabajo con Github y sus respectivas funciones, así como tener un mayor entendimiento del problema al identificar la estructura del sistema y sus respectivos requerimientos y componentes.
 
 ## Decisiones de ingeniería
-| Decisión | Alternativas | Justificación |
+| Decisión  | Alternativas                                                             | Justificación |
 | Uso de IA | Uso de manuales y consulta con personas con experiencia en este proyecto | Se decidió usar IA para expandir las ideas que teníamos acerca de los requisitos a verificar |
 
 
