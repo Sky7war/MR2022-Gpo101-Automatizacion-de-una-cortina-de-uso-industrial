@@ -9,8 +9,8 @@ El equipo trabajó colaborativamente para realizar el entregable H1 con sus resp
 ## Decisiones de ingeniería
 | Decisión  | Alternativas                                                             | Justificación |
 | --------- | ----------- | -------- |
-| Uso de IA | Uso de manuales y consulta con personas con experiencia en este proyecto | Se decidió usar IA para expandir las ideas que teníamos acerca de los requisitos a verificar |
-
+| Uso de IA para añadir requisitos a verificar | Uso de manuales y consulta con personas con experiencia en este proyecto | Se decidió usar IA para expandir las ideas que teníamos acerca de los requisitos a verificar |
+| Realización de diagrama que ilustra el sistema mecatrónico | Uso de pseudocódigo para aclarar los pasos de igual forma | El diagrama nos da una mejor representación y más visual de la ruta que sigue todo el sistema al operar|
 
 ## Problema técnico encontrado
 Un problema importante que surgió fue el no comprender inicialmente algunas de las instrucciones para completar algunas secciones del trabajo.
