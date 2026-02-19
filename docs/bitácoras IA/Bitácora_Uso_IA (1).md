@@ -44,7 +44,7 @@ Marca las que apliquen:
 
 - ✅ ChatGPT  
 - ⬜ Copilot  
-- ⬜ Otra (especificar): ______________________  
+- ✅ Otra (especificar): _Gemini_  
 
 ---
 
@@ -63,7 +63,8 @@ Crea 10 ejemplos de requisitos de seguridad para una cortina industrial que func
 **Prompt 2 (opcional):**
 ```
 
-(pegar prompt aquí)
+En base a la tabla de entradas y al esquemático que te mandé, existen salidas para este sistema?
+(Imagen adjunta)
 
 ```
 
@@ -132,8 +133,16 @@ RS-09: El cableado de las salidas Q1–Q4 deberá estar separado físicamente de
 
 RS-10: Si durante el movimiento se pierde la señal de alimentación de sensores, el PLC deberá desactivar las salidas de movimiento.
 
-```
 
+PROMPT 2
+Exactamente. Con base en las imágenes y la lista que compartiste, no tienes ninguna salida configurada en esta versión (v1).
+
+Esto se confirma por dos cosas en tu diagrama:
+
+En tu lista de texto: Solo defines sensores (S1 a S6). Los sensores son dispositivos de entrada porque le envían información al PLC (a los bornes I1 a I6). No hay ninguna mención de motores, luces, válvulas o contactores, que serían las salidas.
+
+En tu esquemático: Todos los cables llegan a la parte superior del módulo LOGO! (donde están las entradas "I"). La parte inferior del módulo, que es donde se encuentran los bornes de salida (marcados típicamente como Q1, Q2, Q3, Q4...), está completamente vacía y sin conexiones.
+```
 ---
 
 ## 6️⃣ Evaluación crítica del equipo (OBLIGATORIA)
@@ -148,7 +157,7 @@ Algunas ideas que fueron generadas por la IA fueron de gran ayuda y sirvieron de
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
 
-(escribir aquí)
+La parte de la función de los actuadores y los bornes de salidas aún no son aplicables para este trabajo
 
 ```
 
@@ -156,13 +165,13 @@ Algunas ideas que fueron generadas por la IA fueron de gran ayuda y sirvieron de
 Marca y explica:
 
 - ⬜ Se utilizó tal como lo propuso la IA  
-- ⬜ Se utilizó parcialmente (adaptado)  
+- ✅ Se utilizó parcialmente (adaptado)  
 - ⬜ Se rechazó  
 
 **Justificación técnica de la decisión:**
 ```
 
-(escribir aquí)
+Dentro de los resultados encontramos diferentes partes las cuales no eran aplicables para esta fase del proyecto, al igual que datos que simplemente no eran relevantes en lo absoluto para el entregable
 
 ```
 
@@ -180,7 +189,7 @@ Indica **cómo se verificó** la información antes de usarla:
 **Evidencia o explicación breve de la verificación:**
 ```
 
-(escribir aquí)
+Revisamos y corroboramos entre todos los resultados de cada persona para confirmar que íbamos bien y que concordábamos con los resultados
 
 ```
 
@@ -196,7 +205,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+Nos ahorró tiempo y nos ayudó a comprender mejor nuestros resultados del diagrama, además de mejorar la comprensión en parte del problmea
 
 ```
 
@@ -207,7 +216,8 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+Aprendimos que no toda la información que nos da la IA se puede usar en el momento, tenemos que ser selectivos al momento de realizar los prompts 
+y ser más específicos con nuestras solicitudes, además de no solo copiar y pegar los resultaods sino corroborar que estén correctos y tengan coherencia
 
 ```
 
@@ -220,6 +230,6 @@ Declaramos que:
 - La IA fue utilizada como **apoyo**, no como sustituto del criterio ingenieril.
 
 **Firma del equipo (nombres):**
-```
+` Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta 
 
 
