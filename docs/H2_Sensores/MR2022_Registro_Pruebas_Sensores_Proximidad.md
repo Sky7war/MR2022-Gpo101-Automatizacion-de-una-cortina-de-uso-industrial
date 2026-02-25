@@ -19,8 +19,8 @@
   Parámetro                             Información
   ------------------------------------- ---------------------------------------------
   Tipo de sensor                        Inductivo
-  Marca / Modelo                        
-  Tipo de salida                        PNP / NPN / Relé
+  Marca / Modelo                        LJ12A3-4-Z/BX 
+  Tipo de salida                        NPN
   Alimentación                          
   Distancia nominal (según datasheet)   
   Tipo de conexión al LOGO              Digital / Analógica
@@ -33,8 +33,8 @@
   Parámetro                             Información
   ------------------------------------- ---------------------------------------------
   Tipo de sensor                        Capacitivo
-  Marca / Modelo                        
-  Tipo de salida                        PNP / NPN / Relé
+  Marca / Modelo                        LJC18A3-B-Z/BX   
+  Tipo de salida                        NPN
   Alimentación                          
   Distancia nominal (según datasheet)   
   Tipo de conexión al LOGO              Digital / Analógica
@@ -47,7 +47,7 @@
   Parámetro                             Información
   ------------------------------------- ---------------------------------------------
   Tipo de sensor                        Magnético
-  Marca / Modelo                        
+  Marca / Modelo                        FESTO SME-8M-DS-24V-K-2,5-OE
   Tipo de salida                        PNP / NPN / Relé
   Alimentación                          
   Distancia nominal (según datasheet)   
@@ -61,8 +61,8 @@
   Parámetro                             Información
   ------------------------------------- ---------------------------------------------
   Tipo de sensor                        Óptico
-  Marca / Modelo                        
-  Tipo de salida                        PNP / NPN / Relé
+  Marca / Modelo                        E3F-DS30P1
+  Tipo de salida                        PNP
   Alimentación                          
   Distancia nominal (según datasheet)   
   Tipo de conexión al LOGO              Digital / Analógica
