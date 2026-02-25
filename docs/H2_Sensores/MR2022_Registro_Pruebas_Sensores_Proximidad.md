@@ -82,9 +82,9 @@ Sensor óptico
  |Aluminio | Si | 340 mm | 0 mm | 170 mm | NA | 0.1 mm | La plataforma se movía constantemente, al equilibrarla el sensor pudo reconocerla con facilidad |  
  |Cobre |  Si | 110 mm | 0 mm | 55 mm | NA | 0.1 mm | A pesar del tamaño del cable de cobre utilizado para la detección, el sensor logró detectarlo desde una distancia clave y precisa |                                                   
  |Plástico | Si | 490 mm | 0 mm | 245 mm | NA | 0.1 mm | El tamaño de la plataforma fue aceptable  |                                                               
- |Madera  | Si | 487 mm | NA | NA | NA | NA | NA |                                                                         
- |Vidrio |  Sí | 220 mm | NA | NA | NA | NA | NA |                                                                      
- |Agua  |  Sí | 310 mm | NA | NA | NA | NA | NA |                                             
+ |Madera  | Si | 487 mm | 0 mm | 243.5 mm| NA | 0.1 mm | Al igual que el  |                                                                         
+ |Vidrio |  Sí | 220 mm | 0 mm | NA | NA | NA | NA |                                                                      
+ |Agua  |  Sí | 310 mm | 0 mm | NA | NA | NA | NA |                                             
  |Imán | Sí | 220 mm | 0 mm | 22.5 mm | Detecta bien en las caras de área grande, en las demás es menor | No hay | Entre mayor es el área, mayor es el campo magnético y detecta de mayor distancia|                                                                                    
   ------------------------------------------------------------------------------------------------------
 
