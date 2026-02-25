@@ -14,9 +14,11 @@
 
 # 1️⃣ Identificación del Sensor
 
+# Sensor Inductivo
+
   Parámetro                             Información
   ------------------------------------- ---------------------------------------------
-  Tipo de sensor                        Inductivo / Capacitivo / Óptico / Magnético
+  Tipo de sensor                        Inductivo
   Marca / Modelo                        
   Tipo de salida                        PNP / NPN / Relé
   Alimentación                          
@@ -25,6 +27,49 @@
   Observaciones iniciales               
 
 ------------------------------------------------------------------------
+
+# Sensor Capacitivo
+
+  Parámetro                             Información
+  ------------------------------------- ---------------------------------------------
+  Tipo de sensor                        Capacitivo
+  Marca / Modelo                        
+  Tipo de salida                        PNP / NPN / Relé
+  Alimentación                          
+  Distancia nominal (según datasheet)   
+  Tipo de conexión al LOGO              Digital / Analógica
+  Observaciones iniciales               
+
+------------------------------------------------------------------------
+
+# Sensor Magnético
+
+  Parámetro                             Información
+  ------------------------------------- ---------------------------------------------
+  Tipo de sensor                        Magnético
+  Marca / Modelo                        
+  Tipo de salida                        PNP / NPN / Relé
+  Alimentación                          
+  Distancia nominal (según datasheet)   
+  Tipo de conexión al LOGO              Digital / Analógica
+  Observaciones iniciales               
+
+------------------------------------------------------------------------
+
+# Sensor Óptico
+
+  Parámetro                             Información
+  ------------------------------------- ---------------------------------------------
+  Tipo de sensor                        Óptico
+  Marca / Modelo                        
+  Tipo de salida                        PNP / NPN / Relé
+  Alimentación                          
+  Distancia nominal (según datasheet)   
+  Tipo de conexión al LOGO              Digital / Analógica
+  Observaciones iniciales               
+
+------------------------------------------------------------------------
+
 
 # 2️⃣ Resultados por Material Evaluado
 
