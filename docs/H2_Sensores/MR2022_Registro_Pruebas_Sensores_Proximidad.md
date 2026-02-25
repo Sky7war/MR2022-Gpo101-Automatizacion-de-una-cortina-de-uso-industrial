@@ -21,10 +21,10 @@
   Tipo de sensor                        Inductivo
   Marca / Modelo                        LJ12A3-4-Z/BX 
   Tipo de salida                        NPN
-  Alimentación                          
-  Distancia nominal (según datasheet)   
-  Tipo de conexión al LOGO              Digital / Analógica
-  Observaciones iniciales               
+  Alimentación                          6–36 VDC
+  Distancia nominal (según datasheet)   4 mm ± 10%
+  Tipo de conexión al LOGO              Digital
+  Observaciones iniciales               Detecta solo materiales metálicos.
 
 ------------------------------------------------------------------------
 
@@ -35,10 +35,10 @@
   Tipo de sensor                        Capacitivo
   Marca / Modelo                        LJC18A3-B-Z/BX   
   Tipo de salida                        NPN
-  Alimentación                          
-  Distancia nominal (según datasheet)   
+  Alimentación                          6–36 VDC
+  Distancia nominal (según datasheet)   10 mm (ajustable)
   Tipo de conexión al LOGO              Digital / Analógica
-  Observaciones iniciales               
+  Observaciones iniciales               En algunos materiales no requiere contacto de una superficie.
 
 ------------------------------------------------------------------------
 
@@ -48,11 +48,11 @@
   ------------------------------------- ---------------------------------------------
   Tipo de sensor                        Magnético
   Marca / Modelo                        FESTO SME-8M-DS-24V-K-2,5-OE
-  Tipo de salida                        PNP / NPN / Relé
-  Alimentación                          
-  Distancia nominal (según datasheet)   
-  Tipo de conexión al LOGO              Digital / Analógica
-  Observaciones iniciales               
+  Tipo de salida                        PNP
+  Alimentación                          10–30 VDC (versión 24V DC)
+  Distancia nominal (según datasheet)   (Depende de la potencia del imán)
+  Tipo de conexión al LOGO              Digital
+  Observaciones iniciales               Dependiendo de la zona del imán tiene un mayor o menor campo magnético por lo que detecta o no en base a eso.
 
 ------------------------------------------------------------------------
 
@@ -63,10 +63,10 @@
   Tipo de sensor                        Óptico
   Marca / Modelo                        E3F-DS30P1
   Tipo de salida                        PNP
-  Alimentación                          
-  Distancia nominal (según datasheet)   
-  Tipo de conexión al LOGO              Digital / Analógica
-  Observaciones iniciales               
+  Alimentación                          6–36 VDC
+  Distancia nominal (según datasheet)   30 cm (ajustable)
+  Tipo de conexión al LOGO              Digital
+  Observaciones iniciales               Detecta a distancias largas muchos objetos.
 
 ------------------------------------------------------------------------
 
