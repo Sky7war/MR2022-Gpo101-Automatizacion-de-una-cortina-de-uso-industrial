@@ -30,8 +30,7 @@
 
 > Registrar comportamiento REAL medido en laboratorio.
 
-Sensor inductor
-
+Sensor inductivo
  | Material |¿Detecta? (Sí/No) |Distancia mínima (mm) |Distancia máxima (mm)|Distancia promedio (mm) |Zona inestable (mm) |Falsas detecciones |Observaciones|   
  |----------|------------------|----------------------|---------------------|------------------------|--------------------|-------------------|-------------|
  |Acero     | Sí | 6.5 mm | 0 mm | 3.5 mm | 6.6 mm | No hay | Es preciso |                                                                           
@@ -42,6 +41,51 @@ Sensor inductor
  |Vidrio | No | NA | NA | NA | NA | NA | NA |                                                                                 
  |Agua  | No | NA | NA | NA | NA | NA | NA |                                                                                  
  |Imán | Sí | 5 mm | 0 mm | 3 mm | Cuando se acerca mucho a la parte magnética se vuelve muy inestable | No detecta al estar cerca de la parte magnética | El imán altera el campo magnético del inductor y provoca que deje de detectar al acercarse |                                                                                    
+  ------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Sensor capacitivo
+ | Material |¿Detecta? (Sí/No) |Distancia mínima (mm) |Distancia máxima (mm)|Distancia promedio (mm) |Zona inestable (mm) |Falsas detecciones |Observaciones|   
+ |----------|------------------|----------------------|---------------------|------------------------|--------------------|-------------------|-------------|
+ |Acero     | Sí | 7 mm | 0 mm | 3.5 mm | 7.1 mm | No hay | Es preciso |                                                                           
+ |Aluminio |Sí  | 8 mm | 0 mm| 4 mm  | 8.1 mm | No hay | Está muy bonito |                                                                              
+ |Cobre | Sí | 5 mm | 0 mm | 2.5 mm | 5.1 mm | No hay | Se midió con cable de cobre, no con un objeto tan rígido |                                                 
+ |Plástico | No | NA | NA | NA | NA | NA | NA |                                                                            
+ |Madera  | Sí | 3 mm | 0 mm | 1.25 mm | 3.1 mm | No hay | Muy estable |                                                                          
+ |Vidrio | Sí | 2.5 mm | 0 mm | 1.25 mm | 2.6 mm | No hay | Sí lo detectó en todo punto |                                                                          
+ |Agua  | Sí | 6 mm | 0.1 mm | 3 mm | 6.1 | No hay | Sí mide el agua a través de la botella pero no la botella vacía |                                             
+ |Imán | Sí | 9 mm | 0 mm | 5 mm | 10 mm | No hay | El imán no altera la detección, porque funciona con capacitor|                                                                                    
+  ------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Sensor magnético
+ | Material |¿Detecta? (Sí/No) |Distancia mínima (mm) |Distancia máxima (mm)|Distancia promedio (mm) |Zona inestable (mm) |Falsas detecciones |Observaciones|   
+ |----------|------------------|----------------------|---------------------|------------------------|--------------------|-------------------|-------------|
+ |Acero     |  No | NA | NA | NA | NA | NA | NA |                                                                             
+ |Aluminio | No | NA | NA | NA | NA | NA | NA |                                                                                
+ |Cobre |  No | NA | NA | NA | NA | NA | NA |                                                   
+ |Plástico | No | NA | NA | NA | NA | NA | NA |                                                                            
+ |Madera  |  No | NA | NA | NA | NA | NA | NA |                                                                         
+ |Vidrio |  No | NA | NA | NA | NA | NA | NA |                                                                      
+ |Agua  |  No | NA | NA | NA | NA | NA | NA |                                             
+ |Imán | Sí | 45 mm | 0 mm | 22.5 mm | Detecta bien en las caras de área grande, en las demás es menor | No hay | Entre mayor es el área, mayor es el campo magnético y detecta de mayor distancia|                                                                                    
+  ------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Sensor óptico
+ | Material |¿Detecta? (Sí/No) |Distancia mínima (mm) |Distancia máxima (mm)|Distancia promedio (mm) |Zona inestable (mm) |Falsas detecciones |Observaciones|   
+ |----------|------------------|----------------------|---------------------|------------------------|--------------------|-------------------|-------------|
+ |Acero     |  Si | 450 mm | 0 mm | 225 mm | NA | 0.1 mm | La detección fue precisa para el sensor, ya que el material cuenta con un tamaño aceptable |            
+ |Aluminio | Si | 340 mm | 0 mm | 170 mm | NA | 0.1 mm | La plataforma se movía constantemente, al equilibrarla el sensor pudo reconocerla con facilidad |  
+ |Cobre |  Si | 110 mm | 0 mm | 55 mm | NA | 0.1 mm | A pesar del tamaño del cable de cobre utilizado para la detección, el sensor logró detectarlo desde una distancia clave y precisa |                                                   
+ |Plástico | Si | 490 mm | 0 mm | 245 mm | NA | 0.1 mm | El tamaño de la plataforma fue aceptable  |                                                               
+ |Madera  | Si | 487 mm | NA | NA | NA | NA | NA |                                                                         
+ |Vidrio |  Sí | 220 mm | NA | NA | NA | NA | NA |                                                                      
+ |Agua  |  Sí | 310 mm | NA | NA | NA | NA | NA |                                             
+ |Imán | Sí | 220 mm | 0 mm | 22.5 mm | Detecta bien en las caras de área grande, en las demás es menor | No hay | Entre mayor es el área, mayor es el campo magnético y detecta de mayor distancia|                                                                                    
   ------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
