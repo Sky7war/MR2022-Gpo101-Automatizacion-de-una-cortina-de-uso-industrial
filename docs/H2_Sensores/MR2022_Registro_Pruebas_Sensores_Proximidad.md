@@ -30,27 +30,17 @@
 
 > Registrar comportamiento REAL medido en laboratorio.
 
-  ------------------------------------------------------------------------------------------------------
-  Material   ¿Detecta?   Distancia   Distancia   Distancia     Zona        Falsas        Observaciones
-             (Sí/No)     mínima      máxima      promedio      inestable   detecciones   técnicas
-                         estable     estable     efectiva (mm) (mm)                      
-                         (mm)        (mm)                                                
-  ---------- ----------- ----------- ----------- ------------- ----------- ------------- ---------------
-  Acero                                                                                  
+Sensor inductor
 
-  Aluminio                                                                               
-
-  Cobre                                                                                  
-
-  Plástico                                                                               
-
-  Madera                                                                                 
-
-  Vidrio                                                                                 
-
-  Agua                                                                                   
-
-  Imán                                                                                   
+ | Material |¿Detecta? (Sí/No) |Distancia mínima (mm) |Distancia máxima (mm)|Distancia promedio (mm) |Zona inestable (mm) |Falsas detecciones |Observaciones|       |----------|------------------|----------------------|---------------------|------------------------|--------------------|-------------------|-------------|
+ |Acero     | Sí | 6.5 mm | 0 mm | 3.5 mm | 6.6 mm | No hay | Es preciso |                                                                           
+ |Aluminio |Sí  | 2.5 mm | 0 mm| 1.25 mm  | 2.9 mm | No hay | Está muy bonito |                                                                              
+ |Cobre | Sí | 1 mm | 0 mm | 0 mm | 1.1 mm | No hay | Se midió con cable de cobre, no con un objeto rígido |                                                       
+ |Plástico | No | NA | NA | NA | NA | NA | NA |                                                                            
+ |Madera  | No | NA | NA | NA | NA | NA | NA |                                                                          
+ |Vidrio | No | NA | NA | NA | NA | NA | NA |                                                                                 
+ |Agua  | No | NA | NA | NA | NA | NA | NA |                                                                                  
+ |Imán | Sí | 5 mm | 0 mm | 3 mm | Cuando se acerca mucho a la parte magnética se vuelve muy inestable | No detecta al estar cerca de la parte magnética | El imán altera el campo magnético del inductor y provoca que deje de detectar al acercarse |                                                                                    
   ------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
