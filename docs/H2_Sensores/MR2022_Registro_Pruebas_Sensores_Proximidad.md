@@ -81,7 +81,7 @@ Sensor óptico
  |Acero     |  Si | 450 mm | 0 mm | 225 mm | NA | 0.1 mm | La detección fue precisa para el sensor, ya que el material cuenta con un tamaño aceptable |            
  |Aluminio | Si | 340 mm | 0 mm | 170 mm | NA | 0.1 mm | La plataforma se movía constantemente, al equilibrarla el sensor pudo reconocerla con facilidad |  
  |Cobre |  Si | 110 mm | 0 mm | 55 mm | NA | 0.1 mm | A pesar del tamaño del cable de cobre utilizado para la detección, el sensor logró detectarlo desde una distancia clave y precisa |                                                   
- |Plástico | Si | 490 mm | 0 mm | 245 mm | NA | 0.1 mm | El tamaño de la plataforma fue aceptable  |                                                               
+ |Plástico | Si | 490 mm | 0 mm | 245 mm | NA | 0.1 mm | El tamaño de la plataforma fue aceptable  |                                                              
  |Madera  | Si | 487 mm | 0 mm | 243.5 mm| NA | 0.1 mm | Al igual que el  |                                                                         
  |Vidrio |  Sí | 220 mm | 0 mm | NA | NA | NA | NA |                                                                      
  |Agua  |  Sí | 310 mm | 0 mm | NA | NA | NA | NA |                                             
