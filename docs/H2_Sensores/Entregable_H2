@@ -1,6 +1,6 @@
 # Hito 2 – Selección de Componentes
 
-## Sensores seleccionados
+ Sensores seleccionados
 | Sensor | Variable | Tipo de señal | Justificación |
 |--------|----------|---------------|---------------|
 | Inductivo | Posición| Digital |  Garantiza que el motor se detenga con precisión al detectar un marco metálico y es el más barato en cuestión de precio y mantenimiento|
@@ -12,7 +12,7 @@
 | Actuador | Función | Tipo | Justificación |
 |--------|---------|------|---------------|
 
-## Riesgos y consideraciones
+ Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
 
 | Riesgo | Posible falla | Mitigación| 
