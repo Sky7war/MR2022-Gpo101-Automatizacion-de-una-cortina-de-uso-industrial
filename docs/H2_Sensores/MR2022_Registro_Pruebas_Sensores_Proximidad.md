@@ -16,57 +16,63 @@
 
 # Sensor Inductivo
 
-  Parámetro                             Información
-  ------------------------------------- ---------------------------------------------
-  Tipo de sensor                        Inductivo
-  Marca / Modelo                        LJ12A3-4-Z/BX 
-  Tipo de salida                        NPN
-  Alimentación                          6–36 VDC
-  Distancia nominal (según datasheet)   4 mm ± 10%
-  Tipo de conexión al LOGO              Digital
-  Observaciones iniciales               Detecta solo materiales metálicos.
+  |Parámetro                             |Información|
+  |------------------------------------- |---------------------------------------------|
+|  Tipo de sensor           |             Inductivo|
+|  Marca / Modelo                      |  LJ12A3-4-Z/BX |
+ | Tipo de salida                       | NPN |
+ | Alimentación                         | 6–36 VDC |
+ | Distancia nominal (según datasheet)  | 4 mm ± 10% |
+ | Tipo de conexión al LOGO             | Digital|
+ | Observaciones iniciales              | Detecta solo materiales metálicos. |
+
+------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
 # Sensor Capacitivo
-
-  Parámetro                             Información
-  ------------------------------------- ---------------------------------------------
-  Tipo de sensor                        Capacitivo
-  Marca / Modelo                        LJC18A3-B-Z/BX   
-  Tipo de salida                        NPN
-  Alimentación                          6–36 VDC
-  Distancia nominal (según datasheet)   10 mm (ajustable)
-  Tipo de conexión al LOGO              Digital / Analógica
-  Observaciones iniciales               En algunos materiales no requiere contacto de una superficie.
+  
+|  Parámetro                          |     Información  |
+|  -------------------------------------| ---------------------------------------------|
+|  Tipo de sensor                   |     Capacitivo |
+|  Marca / Modelo                      |  LJC18A3-B-Z/BX   | 
+ | Tipo de salida                     |   NPN |
+|  Alimentación                       |   6–36 VDC |
+|  Distancia nominal (según datasheet)  | 10 mm (ajustable) |
+|  Tipo de conexión al LOGO          |    Digital / Analógica |
+ | Observaciones iniciales            |   En algunos materiales no requiere contacto de una superficie.|
 
 ------------------------------------------------------------------------
 
 # Sensor Magnético
 
-  Parámetro                             Información
-  ------------------------------------- ---------------------------------------------
-  Tipo de sensor                        Magnético
-  Marca / Modelo                        FESTO SME-8M-DS-24V-K-2,5-OE
-  Tipo de salida                        PNP
-  Alimentación                          10–30 VDC (versión 24V DC)
-  Distancia nominal (según datasheet)   (Depende de la potencia del imán)
-  Tipo de conexión al LOGO              Digital
-  Observaciones iniciales               Dependiendo de la zona del imán tiene un mayor o menor campo magnético por lo que detecta o no en base a eso.
+|  Parámetro                             |Información |
+|  ------------------------------------- |--------------------------------------------- |
+|  Tipo de sensor                        |Magnético |
+|  Marca / Modelo                        |FESTO SME-8M-DS-24V-K-2,5-OE |
+|  Tipo de salida                        |PNP |
+|  Alimentación                          |10–30 VDC (versión 24V DC) |
+|  Distancia nominal (según datasheet)   |(Depende de la potencia del imán) |
+|  Tipo de conexión al LOGO              |Digital |
+|  Observaciones iniciales               |Dependiendo de la zona del imán tiene un mayor o menor campo magnético por lo que detecta o no en base a eso. |
 
 ------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
 # Sensor Óptico
 
-  Parámetro                             Información
-  ------------------------------------- ---------------------------------------------
-  Tipo de sensor                        Óptico
-  Marca / Modelo                        E3F-DS30P1
-  Tipo de salida                        PNP
-  Alimentación                          6–36 VDC
-  Distancia nominal (según datasheet)   30 cm (ajustable)
-  Tipo de conexión al LOGO              Digital
-  Observaciones iniciales               Detecta a distancias largas muchos objetos.
+|  Parámetro                    |         Información |
+|-------------------------------------|---------------------------------------------|
+|  Tipo de sensor                     |   Óptico |
+|  Marca / Modelo                      |  E3F-DS30P1 |
+|  Tipo de salida                       | PNP |
+|  Alimentación                         | 6–36  VDC |
+|  Distancia nominal (según datasheet)  | 30 cm (ajustable) |
+|  Tipo de conexión al LOGO              | Digital |
+|  Observaciones iniciales              | Detecta a distancias largas muchos objetos. |
+
+-------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
