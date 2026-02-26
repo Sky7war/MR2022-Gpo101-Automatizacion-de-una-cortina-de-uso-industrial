@@ -11,9 +11,9 @@ Durante la actividad se probaron los sensores del LOGO! para detectar varios obj
 | --------- | ----------- | -------- |
 | Cambiar las conexiones de la fuente del LOGO!|Pasar la fuente de 24 V (cable rojo) a la entrada V+, y el 0 (cable negro) a V-|Se decidió hacer este cambio porque se habían colocado en pines incorrectos, pues los pines V+ y V- son los respectivos pines de alimentación del PLC|
 ## Problema técnico encontrado
-Describe un problema concreto.
+Se encontraron varias dificultades para medir las distancias del sensor óptico, pues la regla no alcanzaba a cubrir las mediciones mínimas.
 ## Solución aplicada
-Explica cómo se resolvió.
+Se optó por usar un flexómetro, y gracias a esa herramienta se pudieron hacer las mediciones correctas del sensor óptico.
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
 ## Autoevaluación
