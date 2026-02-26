@@ -323,9 +323,9 @@ Sin embargo, para aplicaciones más complejas y en entornos con más variables p
 -   Video corto de funcionamiento:
 -   Datasheet utilizado (link o archivo en repositorio):
 
-  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/272e6f21-632f-4abb-8297-773de994fac7" />
+  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/272e6f21-632f-4abb-8297-773de994fac7" />
 
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5466eee8-d2f6-4904-8c41-ec1cfcce7196" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5466eee8-d2f6-4904-8c41-ec1cfcce7196" />
 
 ------------------------------------------------------------------------
 
