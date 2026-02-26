@@ -15,9 +15,9 @@ Se encontraron varias dificultades para medir las distancias del sensor óptico,
 ## Solución aplicada
 Se optó por usar un flexómetro, y gracias a esa herramienta se pudieron hacer las mediciones correctas del sensor óptico.
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
+La identificación de sensores y como se aplican al LOGO!, pues gracias a los distintos tipos de sensores que se usaron para el funcionamiento de la cortina, se pudieron identificar varias situaciones involucradas en el funcionamiento de la cortina, cada sensor representa una acción y/o objeto que puede ser detectado por cualquiera de los 4 sensores, siempre y cuando sea de la aplicación correcta del sensor en si, asimismo, esto ayuda a reforzar la seguridad de la cortina, aumentando el nivel de seguridad y confiabilidad que se le tiene, teniendo una visión positiva gracias a la anterior evaluación de los sensores. 
 ## Autoevaluación
 - Muy perdido⬜
 - Con dudas⬜
-- Entendiendo⬜
+- Entendiendo 🟩
 - Dominando ⬜
