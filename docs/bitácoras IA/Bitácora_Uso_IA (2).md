@@ -5,7 +5,7 @@
 - **Equipo:**  
 - **Integrantes:**   Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta 
 - **Semana / Hito:** (H2)  
-- **Fecha:**  
+- **Fecha:**  25/02/2026
 
 ---
 
@@ -13,7 +13,7 @@
 Marca una opción:
 
 - ⬜ No se utilizó IA en esta etapa  
-- ⬜ Sí se utilizó IA de forma puntual  
+- 🟩 Sí se utilizó IA de forma puntual  
 - ⬜ Sí se utilizó IA de forma recurrente  
 
 > ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
@@ -32,8 +32,7 @@ Ejemplos:
 
 **Descripción del objetivo:**
 ```
-
-(escribir aquí)
+Se utilizó la IA para buscar mas detalles acerca de los sensores que fueron utilizados, en especial para diferenciar entre sensor capacitivo y sensor óptico 
 
 ```
 
@@ -42,7 +41,7 @@ Ejemplos:
 ## 3️⃣ Herramienta(s) de IA utilizada(s)
 Marca las que apliquen:
 
-- ⬜ ChatGPT  
+- 🟩 ChatGPT  
 - ⬜ Copilot  
 - ⬜ Otra (especificar): ______________________  
 
@@ -56,7 +55,7 @@ Copia **solo los prompts más importantes** (no todos).
 **Prompt 1:**
 ```
 
-(pegar prompt aquí)
+Diferencias entre capacitivo y óptico
 
 ```
 
@@ -74,7 +73,80 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 
 ```
 
-(resumen o extracto aquí)
+La diferencia entre un sensor capacitivo y un sensor óptico (fotoeléctrico) está principalmente en cómo detectan los objetos y qué pueden detectar.
+
+⚡ Sensor Capacitivo vs Sensor Óptico
+Característica	Sensor Capacitivo	Sensor Óptico (Fotoeléctrico)
+Principio de funcionamiento	Detecta cambios en el campo eléctrico (capacitancia)	Detecta interrupción o reflexión de luz
+Necesita contacto	No	No
+Detecta metales	Sí	Sí
+Detecta no metales	Sí (plástico, madera, líquidos, piel, tela)	Sí, pero depende de la luz reflejada
+Detecta líquidos	✅ Muy bueno	⚠️ Difícil a veces
+Detecta objetos transparentes	Sí	A veces falla
+Sensible al polvo	No mucho	Sí
+Sensible a suciedad	No mucho	Sí
+Precisión	Media	Alta
+Alcance	Corto (2–20 mm típico)	Mayor (hasta metros)
+🔵 Cómo funciona cada uno
+Capacitivo
+
+Funciona como un pequeño capacitor.
+
+Detecta cuando un objeto cambia el campo eléctrico.
+
+Ejemplo:
+
+detecta plástico
+
+detecta agua dentro de un tanque
+
+detecta piel sintética
+
+No necesita ver el objeto, solo que esté cerca.
+
+Óptico (fotoeléctrico)
+
+Funciona con luz infrarroja o láser.
+
+Tiene:
+
+emisor de luz
+
+receptor de luz
+
+Detecta cuando:
+
+la luz se bloquea, o
+
+la luz se refleja
+
+🏭 Ejemplo real en industria (como Flexi)
+
+Capacitivo:
+
+detectar nivel de piel sintética en contenedor
+
+Óptico:
+
+detectar cuando pasa una caja en la banda
+
+🎯 Diferencia clave resumida
+
+Capacitivo → detecta por campo eléctrico
+Óptico → detecta por luz
+
+🧠 Ejemplo práctico simple
+
+Capacitivo:
+Detecta agua dentro de una botella sin tocarla
+
+Óptico:
+Detecta cuando una botella pasa frente al sensor
+
+🧪 Analogía fácil
+
+Capacitivo = como sentir calor cerca sin tocar
+Óptico = como ver algo con tus ojos
 
 ```
 
@@ -85,28 +157,28 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 ### 6.1 ¿Qué parte fue útil?
 ```
 
-(escribir aquí)
+Que las diferencias arrojadas por la IA fueron claras y con explicaciones fáciles como el uso de analogías 
 
 ```
 
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
 
-(escribir aquí)
+Algunas diferencias no fueron del todo fáciles de identificar
 
 ```
 
 ### 6.3 Decisión final del equipo
 Marca y explica:
 
-- ⬜ Se utilizó tal como lo propuso la IA  
+- 🟩 Se utilizó tal como lo propuso la IA  
 - ⬜ Se utilizó parcialmente (adaptado)  
 - ⬜ Se rechazó  
 
 **Justificación técnica de la decisión:**
 ```
 
-(escribir aquí)
+La IA nos ayudó a comprender de varias maneras la diferencia entre el sensor capacitivo y el sensor óptico, pues ambos sensores contaban con la función de detectar cualquier objeto, pero con principios físicos diferentes, el sensor capacitivo solo lo detecta dentro de su campo eléctrico, y el sensor óptico puede detectarlo desde un rango específico, y con ayuda de la recepción y emisión de la luz. 
 
 ```
 
@@ -116,7 +188,7 @@ Marca y explica:
 Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
-- ⬜ Prueba en el sistema real  
+- 🟩 Prueba en el sistema real  
 - ⬜ Discusión en equipo  
 - ⬜ Consulta con el profesor  
 - ⬜ Otra: ______________________  
@@ -124,7 +196,8 @@ Indica **cómo se verificó** la información antes de usarla:
 **Evidencia o explicación breve de la verificación:**
 ```
 
-(escribir aquí)
+Al momento de hacer el registro de pruebas de los sensores, pudimos comprobar la diferencia clara entre el sensor capacitivo y el sensor óptico, en el registro las mediciones fueron claras y acorde al funcionamiento de cada sensor, asimismo pudimos comprobar como reaccionaba el LOGO! al funcionamiento de los sensores, el sensor capacitivo tenía unas medidas demasiado cercanas a los objetos usados en las pruebas, tanto así que sus medicionesno llegaban a sobrepasar todas las mediciones de la regla, como se mencionó con anterioridad, el sensor capacitivo detecta objetos que estén dentro de su campo eléctrico, lo cual es entendible pues el campo eléctrico del sensor tiene un tamaño aceptable y seguro para la detección.
+Por otro lado el sensor óptico tiene mediciones mas largas por la recepción y la emisión de la luz que detecta el sensor sobre el objeto, esto permite que el sensor tenga un mayor alcance y pueda identificar con claridad los objetos a distancia, gracias a la interrupción de la luz que él mismo emite. 
 
 ```
 
@@ -140,7 +213,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+La IA ahorró tiempo en la preparación de este proyecto, pues al igual que las páginas web, es una herramienta innovadora de investigación, cuya utilidad fue aprovechada por el equipo para encontrar las diferencias de los sensores, asimismo nos pudimos preparar adecuadamente en las conexiones del LOGO!, gracias a las investigaciones que se pudieron hacer con la IA, y como se puede aprovechar el uso de los sensores en la cortina, similar a la identificación de situaciones hecha en el trabajo de la semana pasada, se podría decir que la IA es una herramienta valiosa y ahorradora para los ingenieros, siempre y cuando no reemplace la capacidad pensativa del ingeniero. 
 
 ```
 
@@ -151,7 +224,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+La IA puede ser útil para la investigación, pues ahorra tiempo de una manera valiosa y significativa. 
 
 ```
 
@@ -165,5 +238,5 @@ Declaramos que:
 
 **Firma del equipo (nombres):**
 ```
-
+ Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta
 
