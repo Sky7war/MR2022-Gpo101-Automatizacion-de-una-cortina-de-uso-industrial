@@ -41,7 +41,7 @@ Se utilizó la IA para buscar mas detalles acerca de los sensores que fueron uti
 ## 3️⃣ Herramienta(s) de IA utilizada(s)
 Marca las que apliquen:
 
-- 🟩 ChatGPT  
+- ✅ ChatGPT  
 - ⬜ Copilot  
 - ⬜ Otra (especificar): ______________________  
 
@@ -171,7 +171,7 @@ Algunas diferencias no fueron del todo fáciles de identificar
 ### 6.3 Decisión final del equipo
 Marca y explica:
 
-- 🟩 Se utilizó tal como lo propuso la IA  
+- ✅ Se utilizó tal como lo propuso la IA  
 - ⬜ Se utilizó parcialmente (adaptado)  
 - ⬜ Se rechazó  
 
@@ -188,7 +188,7 @@ La IA nos ayudó a comprender de varias maneras la diferencia entre el sensor ca
 Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
-- 🟩 Prueba en el sistema real  
+- ✅ Prueba en el sistema real  
 - ⬜ Discusión en equipo  
 - ⬜ Consulta con el profesor  
 - ⬜ Otra: ______________________  
