@@ -263,7 +263,10 @@ Sí, las más evidentes e importantes son la falla en el sensor inductivo al ace
 Justificar técnica y económicamente.
 
 Respuesta:
-
+- Inductivo: Sí sería adecuado pues garantiza que el motor se detenga con precisión al detectar in marco metálico y es el más barato en cuestión de precio y mantenimiento.
+- Capacitivo: No sería adecuado debido a que es muy sensible y necesita mucho mantenimiento, a pesar de no ser un sensor relativamente caro.
+- Magnético: Sí sería adecuado para reforzar la seguridad de la cortina y confirmar que esté cerrada y bloqueada, además de ser muy económico y duradero.
+- Óptico: Sí es adecuado porque es capaz de detectar una persona y actúa como "protección" para evitar accidentes, solo que es muy costoso pero nada vale más que la seguridad
 ------------------------------------------------------------------------
 
 # 6️⃣ Matriz de Decisión Técnica
@@ -303,6 +306,9 @@ Redactar una conclusión técnica defendible:
 -   ¿Qué riesgos industriales identifican?
 
 Conclusión:
+En base a la evaluación de la matriz podemos concluir que los sensores ópticos serán los más recomendables a utilizar para el proyecto de la cortina industrial ya que destacan en la mayoría de los criterios presentados, siendo bastante útiles en las condiciones requeridas de la situación problema al ser un espacio cerrado y controlado.
+
+Sin embargo, para aplicaciones más complejas y en entornos con más variables presentes como humedad, suciedad, vibraciones, entre otros, se requerirían componentes de mejor calidad y alcance para un funcionamiento más eficiente y profesional, y así, evitar riesgos como cortocircuitos o fallos en la detección de elementos en el área industrial.
 
 ------------------------------------------------------------------------
 
