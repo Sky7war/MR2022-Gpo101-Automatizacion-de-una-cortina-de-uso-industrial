@@ -32,7 +32,7 @@ Ejemplos:
 
 **Descripción del objetivo:**
 ```
-Se utilizó la IA para buscar mas detalles acerca de los sensores que fueron utilizados, en especial para diferenciar entre sensor capacitivo y sensor óptico 
+Se utilizó la IA para buscar mas detalles acerca de los sensores que fueron utilizados, en especial para diferenciar entre sensor capacitivo y sensor óptico y obtener especificaciones o datasheets de los mismos.
 
 ```
 
@@ -62,7 +62,7 @@ Diferencias entre capacitivo y óptico
 **Prompt 2 (opcional):**
 ```
 
-(pegar prompt aquí)
+Tomando en consideración los modelos, completa la información de cada sensor en tipo de tabla: # Sensor Inductivo Parámetro Información ------------------------------------- --------------------------------------------- Tipo de sensor Inductivo Marca / Modelo LJ12A3-4-Z/BX Tipo de salida NPN Alimentación Distancia nominal (según datasheet) Tipo de conexión al LOGO Digital / Analógica Observaciones iniciales ------------------------------------------------------------------------ # Sensor Capacitivo Parámetro Información ------------------------------------- --------------------------------------------- Tipo de sensor Capacitivo Marca / Modelo LJC18A3-B-Z/BX Tipo de salida NPN Alimentación Distancia nominal (según datasheet) Tipo de conexión al LOGO Digital / Analógica Observaciones iniciales ------------------------------------------------------------------------ # Sensor Magnético Parámetro Información ------------------------------------- --------------------------------------------- Tipo de sensor Magnético Marca / Modelo FESTO SME-8M-DS-24V-K-2,5-OE Tipo de salida PNP / NPN / Relé Alimentación Distancia nominal (según datasheet) Tipo de conexión al LOGO Digital / Analógica Observaciones iniciales ------------------------------------------------------------------------ # Sensor Óptico Parámetro Información ------------------------------------- --------------------------------------------- Tipo de sensor Óptico Marca / Modelo E3F-DS30P1 Tipo de salida PNP Alimentación Distancia nominal (según datasheet) Tipo de conexión al LOGO Digital / Analógica Observaciones iniciales
 
 ```
 
@@ -149,6 +149,17 @@ Capacitivo = como sentir calor cerca sin tocar
 Óptico = como ver algo con tus ojos
 
 ```
+
+| Parámetro                               | Información                                                                                                                               |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tipo de sensor**                      | Inductivo                                                                                                                                 |
+| **Marca / Modelo**                      | LJ12A3-4-Z/BX                                                                                                                             |
+| **Tipo de salida**                      | NPN (Normalmente Abierto)                                                                                                                 |
+| **Alimentación**                        | 6–36 VDC                                                                                                                                  |
+| **Distancia nominal (según datasheet)** | 4 mm                                                                                                                                      |
+| **Tipo de conexión al LOGO**            | Digital                                                                                                                                   |
+| **Observaciones iniciales**             | Detecta solo materiales metálicos. Salida NPN (requiere conexión tipo sinking en el LOGO). 3 hilos: café = V+, azul = GND, negro = señal. |
+
 
 ---
 
