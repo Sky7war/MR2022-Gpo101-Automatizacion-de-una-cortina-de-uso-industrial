@@ -2,9 +2,8 @@
 ## Tema de la semana
 (Sensores)
 ## Actividades realizadas
-El trabajo realizado por el equipo consistió en probar la eficacia de los sensores conectados al LOGO!, que se utilizarán en la cortina, el sensor capacitivo (detecta objetos que entran a su campo eléctrico), sensor inductivo (detecta objetos metálicos), sensor óptico (detecta objetos a distancia), sensor magnético (detecta la presencia de campos magnéticos).
-
-Durante la actividad se probaron los sensores del LOGO! para detectar varios objetos, algunos con diferentes propiedades, hubo ciertos objetos que no fueron detectados por algunos sensores, esto se debe mas a la capacidad del sensor, o a las propiedades del objeto. 
+El trabajo realizado por el equipo consistió en la validación experimental de los sensores conectados al LOGO! para su selección definitiva para el proyecto. Los sensores utilizados fueron: el sensor capacitivo (detecta objetos que entran a su campo eléctrico), sensor inductivo (detecta objetos metálicos), sensor óptico (detecta objetos a distancia), sensor magnético (detecta la presencia de campos magnéticos). 
+Cabe mencionar que durante esta experimentación se comparó con datos de datasheets correspondientes y se probaron los sensores del LOGO! para evaluar su funcionamiento y características, detectando varios objetos con sus respectivas propiedades, sin embargo, hubo algunos que no fueron detectados por algunos sensores debido a la capacidad del mismo, o bien, las propiedades del objeto detectado.
 
 ## Decisiones de ingeniería
 | Decisión  | Alternativas                                                             | Justificación |
