@@ -160,6 +160,7 @@ Capacitivo = como sentir calor cerca sin tocar
 | **Tipo de conexión al LOGO**            | Digital                                                                                                                                   |
 | **Observaciones iniciales**             | Detecta solo materiales metálicos. Salida NPN (requiere conexión tipo sinking en el LOGO). 3 hilos: café = V+, azul = GND, negro = señal. |
 
+(entre otras tablas con los demás sensores)
 
 ---
 
@@ -168,7 +169,7 @@ Capacitivo = como sentir calor cerca sin tocar
 ### 6.1 ¿Qué parte fue útil?
 ```
 
-Que las diferencias arrojadas por la IA fueron claras y con explicaciones fáciles como el uso de analogías 
+Que las diferencias arrojadas por la IA fueron claras y con explicaciones fáciles como el uso de analogías y se obtuvieron datos precisos de los modelos de los sensores
 
 ```
 
@@ -189,7 +190,7 @@ Marca y explica:
 **Justificación técnica de la decisión:**
 ```
 
-La IA nos ayudó a comprender de varias maneras la diferencia entre el sensor capacitivo y el sensor óptico, pues ambos sensores contaban con la función de detectar cualquier objeto, pero con principios físicos diferentes, el sensor capacitivo solo lo detecta dentro de su campo eléctrico, y el sensor óptico puede detectarlo desde un rango específico, y con ayuda de la recepción y emisión de la luz. 
+La IA nos ayudó a obtener datos precisos de los sensores y sus especificaciones y comprender de varias maneras la diferencia entre el sensor capacitivo y el sensor óptico, pues ambos sensores contaban con la función de detectar cualquier objeto, pero con principios físicos diferentes, el sensor capacitivo solo lo detecta dentro de su campo eléctrico, y el sensor óptico puede detectarlo desde un rango específico, y con ayuda de la recepción y emisión de la luz. 
 
 ```
 
@@ -208,7 +209,8 @@ Indica **cómo se verificó** la información antes de usarla:
 ```
 
 Al momento de hacer el registro de pruebas de los sensores, pudimos comprobar la diferencia clara entre el sensor capacitivo y el sensor óptico, en el registro las mediciones fueron claras y acorde al funcionamiento de cada sensor, asimismo pudimos comprobar como reaccionaba el LOGO! al funcionamiento de los sensores, el sensor capacitivo tenía unas medidas demasiado cercanas a los objetos usados en las pruebas, tanto así que sus medicionesno llegaban a sobrepasar todas las mediciones de la regla, como se mencionó con anterioridad, el sensor capacitivo detecta objetos que estén dentro de su campo eléctrico, lo cual es entendible pues el campo eléctrico del sensor tiene un tamaño aceptable y seguro para la detección.
-Por otro lado el sensor óptico tiene mediciones mas largas por la recepción y la emisión de la luz que detecta el sensor sobre el objeto, esto permite que el sensor tenga un mayor alcance y pueda identificar con claridad los objetos a distancia, gracias a la interrupción de la luz que él mismo emite. 
+Por otro lado el sensor óptico tiene mediciones mas largas por la recepción y la emisión de la luz que detecta el sensor sobre el objeto, esto permite que el sensor tenga un mayor alcance y pueda identificar con claridad los objetos a distancia, gracias a la interrupción de la luz que él mismo emite.
+Cabe mencionar que para evaluar que la información de las especificaciones de sensores fuera correcta se consultó páginas externas donde se verificó que la información coincidiera.
 
 ```
 
