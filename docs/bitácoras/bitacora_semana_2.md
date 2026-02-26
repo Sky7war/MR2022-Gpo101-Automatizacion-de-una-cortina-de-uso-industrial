@@ -19,5 +19,5 @@ La identificación de sensores y como se aplican al LOGO!, pues gracias a los di
 ## Autoevaluación
 - Muy perdido⬜
 - Con dudas⬜
-- Entendiendo 🟩
+- Entendiendo ✅
 - Dominando ⬜
