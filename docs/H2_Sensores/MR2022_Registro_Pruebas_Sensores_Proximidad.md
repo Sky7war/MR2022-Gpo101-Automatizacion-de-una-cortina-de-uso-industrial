@@ -208,12 +208,23 @@ Sensor capacitivo
 
 # 4️⃣ Comparación vs Especificación del Fabricante
 
-  Parámetro                         Valor Datasheet   Valor Experimental   Error (%)
-  --------------------------------- ----------------- -------------------- -----------
-  Distancia nominal                                                        
-  Tiempo de respuesta (si aplica)                                          
-  Tipo de material recomendado                                             
+|  Parámetro                       |  Valor Datasheet |  Valor Experimental |  Error (%) |
+|  --------------------------------- | ----------------- | -------------------- | ----------- |
+|  Distancia nominal del sensor magnético |   NA | NA | NA |
+|  Distancia nominal del sensor capacitivo | 10 mm | 9 mm | 10% |
+|  Distancia nominal del sensor inductivo | 4 mm | 6.5 mm | 62.5% |
+|  Distancia nominal del sensor óptico | 300 mm | 450 mm | 50% |
+|  Tiempo de respuesta (si aplica)  | NA en ninguno | NA en ninguno | NA en ninguno |                                        
+------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 
+| Sensor | Tipo de material recomendado |  
+| ------ | ---------------------------- |
+| Magnético | Imanes |
+| Capacitivo | Materiales metálicos y sólidos |
+| Inductivo | Metálicos |
+| Óptico | Objetos no transparentes |
+------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
 # 5️⃣ Análisis Técnico del Equipo
@@ -221,8 +232,7 @@ Sensor capacitivo
 ## 5.1 ¿Coincide la distancia real con la nominal?
 
 Respuesta:
-
-------------------------------------------------------------------------
+En el caso del magnético, esta distancia es bastante variable por la potencia del imán, como se mostró en su distancia máxima al cambiar los imanes, por su parte en el sensor capacitivo hubo una pequeña diferencia a favor de la medición experimental, mientras que en el inductivo la diferencia sí es mucho más grande, sin embargo no es tan descabellado debido a que son distancias muy pequeñas, y, por último, el sensor óptico también tuvo una gran diferencia, sin embargo no es tan raro debido a que la distancia de medición es ajustable, y la de 300 mm era la predeterminada, pero podría haberse calibrado un poco diferente el que nosotros tenemos.
 
 ## 5.2 ¿Qué fenómeno físico explica el comportamiento observado?
 
@@ -230,20 +240,23 @@ Respuesta:
 óptica, campo magnético)
 
 Respuesta:
-
-------------------------------------------------------------------------
+- El fenómeno físico que explica los cambios de distancia de medición en los sensores magnéticos es el campo magnético, lo cual explica que cada imán tiene un campo magnético diferente, y su geometría provoca que el campo también cambie, en donde hay un mayor campo magnético es en el centro de las caras, y en las caras que abarcan mayor área.
+- El sensor óptico batalla detectando objetos transparentes por su transmitancia óptica, el plástico o vidrio puede desviar el haz de luz del sensor por refracción, lo que hace que el receptor no la capte de nuevo y no detecte presencia de un objeto.
+- El sensor inductivo funciona mediante una bobina, cuando el metal se acerca se generan corriente (Corrientes de Foucault) que consumen energía del campo, y el sensor detecta esta pérdida, al acercar un imán su campo magnético interfiere saturando el núcleo, lo que impide que la bobina oscile y se presente un "error".
+- El sensor capacitivo detecta cambios en la capacitancia del sistema, donde el sensor funciona como una placa del capacitor y el objeto detectado funciona como dieléctrico, pero cuando la constante dieléctrica de este material es muy baja, no se detecta un gran cambio en la capacitancia, ergo, no se detecta el objeto, como puede pasar con el plástico.     
 
 ## 5.3 ¿Qué materiales generan mejor desempeño? ¿Por qué?
 
 Respuesta:
-
-------------------------------------------------------------------------
+- Para los magnéticos únicamente los imanes, porque funcionan con el campo magnético del objeto detectado.
+- Para los ópticos, cualquier objeto que sea de un color sólido, porque reflejará el haz de luz sin desviarlo.
+- Para los inductivos, los objetos metálicos son la mejor opción porque son los que consumen energía del campo.
+- Para los capacitivos, los mejores objetos serían los que tengan una constante dieléctrica alta, como los metales, agua y otros materiales diferentes al plástico.   
 
 ## 5.4 ¿Detectaron zonas muertas o inestabilidad?
 
 Respuesta:
-
-------------------------------------------------------------------------
+Sí, las más evidentes e importantes son la falla en el sensor inductivo al acercar imanes y la nula detección de plástico por parte del capacitivo, sin embargo, contemplando la investigación y los materiales para los que se debe hacer, se vió bastante congruencia entre el funcionamiento que registramos y el material y precisión con la que se esperaría por parte de estos sensores.  
 
 ## 5.5 ¿Este sensor sería adecuado para la situación problema del curso?
 
