@@ -6,7 +6,11 @@
 
 ## Equipo: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-## Integrantes: Daniel Sopeña Zamora/Adolfo-Javier Barrientos López Victor/Manuel Zamudio Zazueta/Leopoldo Ramírez Sánchez
+## Integrantes: 
+  - Daniel Sopeña Zamora 
+  - Adolfo-Javier Barrientos López
+  - Víctor Manuel Zamudio Zazueta
+  - Leopoldo Ramírez Sánchez
 
 ## Fecha: 25/02/2026
 
