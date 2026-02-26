@@ -136,7 +136,7 @@ Sensor óptico
 |Madera  | Si | 487 mm | 0 mm | 243.5 mm| 488 mm | No hay | Al igual que el plástico |                                                   
 |Vidrio |  Sí | 220 mm | 0 mm | 100 mm | 221 mm | No hay | El vidrio no era transparente por completo |
 |Agua  |  Sí | 310 mm | 0 mm | 150 mm | 311 mm | No hay | Solo detectó la parte de la botella llena de agua  |                            
-|Imán | Sí | 220 mm | 0 mm | 110 mm | No hay | Igual al vidrio, a pesar de que el material y color de su superficie no eran tan parecidos|       
+|Imán | Sí | 220 mm | 0 mm | 110 mm | 221 mm | No hay | Igual al vidrio, a pesar de que el material y color de su superficie no eran tan parecidos|       
 -----------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -148,7 +148,7 @@ Sensor óptico
 
 Sensor magnético
   -------------------------------------------------------------------------------
-  | Distancia (mm) |  LED del sensor (ON/OFF) |  Entrada en LOGO (1/0) |  ¿Detección consistente? | Comentarios 
+  | Distancia (mm) |  LED del sensor (ON/OFF) |  Entrada en LOGO (1/0) |  ¿Detección consistente? | Comentarios |
   |-----------| ----------------|--------------| --------------------- |-------------|
   | 0 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición  |            
   | 2 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |            
@@ -158,7 +158,49 @@ Sensor magnético
   | 20 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |    
   | 25 | OFF | 0 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |
   | 30 | OFF | 0 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |
+    -------------------------------------------------------------------------------
+
+Sensor capacitivo
   -------------------------------------------------------------------------------
+  | Distancia (mm) |  LED del sensor (ON/OFF) |  Entrada en LOGO (1/0) |  ¿Detección consistente? | Comentarios |
+  |-----------| ----------------|--------------| --------------------- |-------------|
+  | 0 | ON | 1 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera  |            
+  | 2 | ON | 1 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera |            
+  | 4 | ON | 1 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera |            
+  | 8 | ON | 1 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera |        
+  | 12 | OFF | 0 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera |            
+  | 16 | OFF | 0 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera |    
+  | 40 | OFF | 0 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera |
+  | 50 | OFF | 0 | Sí | Se usó en una superficie diferente a las previas, en tela de una cartuchera |
+    -------------------------------------------------------------------------------
+
+ Sensor inductivo
+  -------------------------------------------------------------------------------
+  | Distancia (mm) |  LED del sensor (ON/OFF) |  Entrada en LOGO (1/0) |  ¿Detección consistente? | Comentarios |
+  |-----------| ----------------|--------------| --------------------- |-------------|
+  | 0 | ON | 0 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1  |            
+  | 2 | ON | 0 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1  |            
+  | 4 | ON | 0 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1  |            
+  | 6 | OFF | 1 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1 |        
+  | 8 | OFF | 1 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1  |            
+  | 12 | OFF | 1 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1  |    
+  | 14 | OFF | 1 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1  |
+  | 16 | OFF | 1 | No | Está invertido, cuando no detecta el LOGO marca 0, y cuando sí detecta marca 1  |
+    -------------------------------------------------------------------------------
+ 
+ Sensor óptico
+  -------------------------------------------------------------------------------
+  | Distancia (mm) |  LED del sensor (ON/OFF) |  Entrada en LOGO (1/0) |  ¿Detección consistente? | Comentarios |
+  |-----------| ----------------|--------------| --------------------- |-------------|
+  | 0 | ON | 1 | Sí | Es el que detecta desde distancias más largas  |            
+  | 10 | ON | 1 | Sí | Es el que detecta desde distancias más largas  |            
+  | 20 | ON | 1 | Sí | Es el que detecta desde distancias más largas  |            
+  | 40 | ON | 1 | Sí | Es el que detecta desde distancias más largas |        
+  | 60 | ON | 1 | Sí | Es el que detecta desde distancias más largas  |            
+  | 100 | ON | 1 | Sí | Es el que detecta desde distancias más largas  |    
+  | 200 | ON | 1 | Sí | Es el que detecta desde distancias más largas  |
+  | 500 | OFF | 0 | Sí | Es el que detecta desde distancias más largas  |
+    -------------------------------------------------------------------------------
 
 *(Ajustar rango según especificación del sensor)*
 
