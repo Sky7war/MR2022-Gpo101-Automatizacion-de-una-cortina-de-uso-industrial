@@ -1,12 +1,12 @@
 Hito 2 – Selección de Componentes
 
-Sensores seleccionados
+## Sensores seleccionados
 
-| Sensor | Variable | Tipo de señal | Justificación |
-|--------|----------|---------------|---------------|
-| Inductivo | Posición| Digital |  Garantiza que el motor se detenga con precisión al detectar un marco metálico y es el más barato en cuestión de precio y mantenimiento |
-| Óptico     |    Presencia    | Digital| Capaz de detectar una persona y actúa como "protección" para evitar accidentes, solo que es muy costoso pero nada vale más que la seguridad |
-| Magnético  |    Estado de cierre    | Digital |Máxima fiabiliad al ser inmunea cualquier material que no tenga campo magnético, además de ser económico y fácil de conectar |   
+|   Sensor  |     Variable    | Tipo de señal | Justificación |
+|-----------|-----------------|---------------|---------------|
+| Inductivo |    Posición     | Digital       |  Garantiza que el motor se detenga con precisión al detectar un marco metálico y es el más barato en cuestión de precio y mantenimiento |
+| Óptico    |    Presencia    | Digital       | Capaz de detectar una persona y actúa como "protección" para evitar accidentes, solo que es muy costoso pero nada vale más que la seguridad |
+| Magnético | Estado de cierre| Digital       |Máxima fiabiliad al ser inmunea cualquier material que no tenga campo magnético, además de ser económico y fácil de conectar |   
 
 
 Actuadores seleccionados (PENDIENTE)
@@ -14,8 +14,9 @@ Actuadores seleccionados (PENDIENTE)
 |--------|---------|------|---------------|
 
 
-Riesgos y consideraciones
+## Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
+
 | Riesgo | Posible falla |   Mitigación  | 
 |--------|---------------|---------------|
 | Acumulación de residuos| El sensor óptico puede ensuciarse y mandar una señal de presencia falsa| Plan de mantenimiento preventivo | 
