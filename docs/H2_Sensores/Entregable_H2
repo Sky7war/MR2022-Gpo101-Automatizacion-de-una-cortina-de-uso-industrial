@@ -3,6 +3,10 @@
 ## Sensores seleccionados
 | Sensor | Variable | Tipo de señal | Justificación |
 |------|----------|---------------|---------------|
+| Inductivo | Posición| Digital |  Garantiza que el motor se detenga con precisión al detectar un marco metálico y es el más barato en cuestión de precio y mantenimiento|
+| Óptico          |    Presencia    | Digital| Capaz de detectar una persona y actúa como "protección" para evitar accidentes, solo que es muy costoso pero nada vale más que la seguridad|
+| Magnético        |    Estado de cierre    |Máxima fiabiliad al ser inmunea cualquier material que no tenga campo magnético, además de ser económico y fácil de ocnectar|   
+
 
 ## Actuadores seleccionados (PENDIENTE)
 | Actuador | Función | Tipo | Justificación |
@@ -10,3 +14,9 @@
 
 ## Riesgos y consideraciones
 ¿Qué podría fallar y cómo se mitiga?
+| Riesgo | Posible falla | Mitigación| 
+|------|----------|---------------|
+| Acumulación de residuos | El sensor óptico puede ensuciarse y mandar una señal de presencia falsa| Plan de mantenimiento preventivo | 
+|Cortocircuito por cableado expuesto| Los cables con el movimiento del motor pueden enredarse y romperse | Acomodar los cables de manera óptima y segura, además de organizarlos de forma que se vea pulcro y organizados los cables|
+| Interferencia lumínica      |  Luz directa o destellos pueden saturar el receptor óptico   | Fabricar y diseñar en 3D una capucha para el lente del sensor óptico |
+| Falso positivo en el capacitivo     |  Si lo fuéramos a usar, un contacto accidental lo activará   | Programar un delay para filtrar activaciones accidentales |
