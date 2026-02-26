@@ -136,7 +136,7 @@ Sensor óptico
 |Madera  | Si | 487 mm | 0 mm | 243.5 mm| 488 mm | No hay | Al igual que el plástico |                                                   
 |Vidrio |  Sí | 220 mm | 0 mm | 100 mm | 221 mm | No hay | El vidrio no era transparente por completo |
 |Agua  |  Sí | 310 mm | 0 mm | 150 mm | 311 mm | No hay | Solo detectó la parte de la botella llena de agua  |                            
-|Imán | Sí | 220 mm | 0 mm | 22.5 mm | Igual al vidrio, a pesar de que el material y color de su superficie no eran tan parecidos|       
+|Imán | Sí | 220 mm | 0 mm | 110 mm | No hay | Igual al vidrio, a pesar de que el material y color de su superficie no eran tan parecidos|       
 -----------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
