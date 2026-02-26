@@ -3,8 +3,8 @@
 
 ## Información general
 - **Equipo:**  
-- **Integrantes:**  
-- **Semana / Hito:** (H1 / H2 / H3 / H4 / H5)  
+- **Integrantes:**   Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta 
+- **Semana / Hito:** (H2)  
 - **Fecha:**  
 
 ---
