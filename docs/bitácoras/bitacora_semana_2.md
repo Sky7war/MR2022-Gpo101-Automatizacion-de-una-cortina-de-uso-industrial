@@ -1,8 +1,11 @@
 # Bitácora – Semana 2
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+(Sensores)
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+El trabajo realizado por el equipo consistió en probar la eficacia de los sensores conectados al LOGO!, que se utilizarán en la cortina, el sensor capacitivo (detecta objetos que entran a su campo eléctrico), sensor inductivo (detecta objetos metálicos), sensor óptico (detecta objetos a distancia), sensor magnético (detecta la presencia de campos magnéticos).
+
+Durante la actividad se probaron los sensores del LOGO! para detectar varios objetos, algunos con diferentes propiedades, hubo ciertos objetos que no fueron detectados por algunos sensores, esto se debe mas a la capacidad del sensor, o a las propiedades del objeto. 
+
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
