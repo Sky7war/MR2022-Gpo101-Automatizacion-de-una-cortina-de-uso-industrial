@@ -14,7 +14,7 @@ Marca una opción:
 
 - ⬜ No se utilizó IA en esta etapa  
 - ⬜ Sí se utilizó IA de forma puntual  
-- 🟩  Sí se utilizó IA de forma recurrente  
+- ✅  Sí se utilizó IA de forma recurrente  
 
 > ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
 
