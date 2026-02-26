@@ -8,7 +8,7 @@ Durante la actividad se probaron los sensores del LOGO! para detectar varios obj
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
-|--------|-------------|---------------|
+| Cambiar las conexiones de la fuente del LOGO!|Pasar la fuente de 24 V (cable rojo) a la entrada V+, y el 0 (cable negro) a V-|Se decidió hacer este cambio porque se habían colocado en pines incorrectos, pues los pines V+ y V- son los respectivos pines de alimentación del PLC|
 ## Problema técnico encontrado
 Describe un problema concreto.
 ## Solución aplicada
