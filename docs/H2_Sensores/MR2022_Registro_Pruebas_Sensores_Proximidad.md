@@ -121,17 +121,17 @@ Sensor magnético
 ------------------------------------------------------------------------
 
 Sensor óptico
- | Material |¿Detecta? (Sí/No) |Distancia mínima (mm) |Distancia máxima (mm)|Distancia promedio (mm) |Zona inestable (mm) |Falsas detecciones |Observaciones|   
- |----------|------------------|----------------------|---------------------|------------------------|--------------------|-------------------|-------------|
- |Acero     |  Si | 450 mm | 0 mm | 225 mm | NA | 0.1 mm | La detección fue precisa para el sensor, ya que el material cuenta con un tamaño aceptable |            
- |Aluminio | Si | 340 mm | 0 mm | 170 mm | NA | 0.1 mm | La plataforma se movía constantemente, al equilibrarla el sensor pudo reconocerla con facilidad |  
- |Cobre |  Si | 110 mm | 0 mm | 55 mm | NA | 0.1 mm | A pesar del tamaño del cable de cobre utilizado para la detección, el sensor logró detectarlo desde una distancia clave y precisa |                                                   
- |Plástico | Si | 490 mm | 0 mm | 245 mm | NA | 0.1 mm | El tamaño de la plataforma fue aceptable  |                                                              
- |Madera  | Si | 487 mm | 0 mm | 243.5 mm| NA | 0.1 mm | Al igual que el  |                                                                         
- |Vidrio |  Sí | 220 mm | 0 mm | NA | NA | NA | NA |                                                                      
- |Agua  |  Sí | 310 mm | 0 mm | NA | NA | NA | NA |                                             
- |Imán | Sí | 220 mm | 0 mm | 22.5 mm | Detecta bien en las caras de área grande, en las demás es menor | No hay | Entre mayor es el área, mayor es el campo magnético y detecta de mayor distancia|                                                                                    
-  ------------------------------------------------------------------------------------------------------
+| Material |¿Detecta? (Sí/No) |Distancia mínima (mm) |Distancia máxima (mm)|Distancia promedio (mm) |Zona inestable (mm) |Falsas detecciones |Observaciones|   
+|----------|--------------|------------------|-----------------|--------------------|-----------------|-------------------|-------------|
+|Acero     |  Si | 450 mm | 0 mm | 225 mm | 451 mm | No hay | La detección fue precisa para el sensor, ya que el material cuenta con un tamaño aceptable |            
+|Aluminio | Si | 340 mm | 0 mm | 170 mm | 341 mm | No hay | La plataforma se movía constantemente, al equilibrarla el sensor pudo reconocerla con facilidad |  
+|Cobre |  Si | 110 mm | 0 mm | 55 mm | 111 mm | No hay | A pesar del tamaño del cable de cobre utilizado para la detección, el sensor logró detectarlo desde una distancia clave y precisa |                                                   
+|Plástico | Si | 490 mm | 0 mm | 245 mm | 491 mm | No hay | El tamaño de la plataforma fue aceptable  |                                  
+|Madera  | Si | 487 mm | 0 mm | 243.5 mm| 488 mm | No hay | Al igual que el plástico |                                                   
+|Vidrio |  Sí | 220 mm | 0 mm | 100 mm | 221 mm | No hay | El vidrio no era transparente por completo |
+|Agua  |  Sí | 310 mm | 0 mm | 150 mm | 311 mm | No hay | Solo detectó la parte de la botella llena de agua  |                            
+|Imán | Sí | 220 mm | 0 mm | 22.5 mm | Igual al vidrio, a pesar de que el material y color de su superficie no eran tan parecidos|       
+-----------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
@@ -140,27 +140,18 @@ Sensor óptico
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
 
+Sensor magnético
   -------------------------------------------------------------------------------
-  Distancia   LED del sensor   Entrada en     ¿Detección            Comentarios
-  (mm)        (ON/OFF)         LOGO (1/0)     consistente? (Sí/No)  
-  ----------- ---------------- -------------- --------------------- -------------
-  0                                                                 
-
-  2                                                                 
-
-  4                                                                 
-
-  6                                                                 
-
-  8                                                                 
-
-  10                                                                
-
-  12                                                                
-
-  14                                                                
-
-  16                                                                
+  | Distancia (mm) |  LED del sensor (ON/OFF) |  Entrada en LOGO (1/0) |  ¿Detección consistente? | Comentarios 
+  |-----------| ----------------|--------------| --------------------- |-------------|
+  | 0 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición  |            
+  | 2 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |            
+  | 4 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |            
+  | 8 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |        
+  | 16 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |            
+  | 20 | ON | 1 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |    
+  | 25 | OFF | 0 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |
+  | 30 | OFF | 0 | Sí | Se usó un imán diferente al de la primer prueba, un poco menos potente, lo que afecta a la medición |
   -------------------------------------------------------------------------------
 
 *(Ajustar rango según especificación del sensor)*
