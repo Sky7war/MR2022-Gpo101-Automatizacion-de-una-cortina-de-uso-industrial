@@ -341,9 +341,12 @@ Redactar una conclusión técnica defendible:
 -   ¿Qué riesgos industriales identifican?
 
 Conclusión:
-En base a la evaluación de la matriz podemos concluir que los sensores ópticos serán los más recomendables a utilizar para el proyecto de la cortina industrial ya que destacan en la mayoría de los criterios presentados, siendo bastante útiles en las condiciones requeridas de la situación problema al ser un espacio cerrado y controlado.
 
-Sin embargo, para aplicaciones más complejas y en entornos con más variables presentes como humedad, suciedad, vibraciones, entre otros, se requerirían componentes de mejor calidad y alcance para un funcionamiento más eficiente y profesional, y así, evitar riesgos como cortocircuitos o fallos en la detección de elementos en el área industrial.
+Dada la situación en que ya tenemos a la mano todos los sensores y el precio no nos afecta directamente, será más conveniente para el proyecto el uso de los sensores óptico e inductivo, el óptico nos será útil para detectar desde distancias lejanas la presencia de objetos por debajo de la cortina, y podrá haber un frenado anticipado de los motores, combinado con un inductivo para frenar cuando la distancia sea muy corta, además de esto los sensores magnéticos serán útiles para detectar la altura de la cortina colocando imanes en ella.
+
+En base a la evaluación de la matriz podemos concluir que estos son los más recomendables a utilizar para el proyecto de la cortina industrial ya que destacan en la mayoría de los criterios presentados, siendo bastante útiles en las condiciones requeridas de la situación problema al ser un espacio cerrado y controlado.
+
+Sin embargo, para aplicaciones más complejas y en entornos con más variables presentes como humedad, suciedad, vibraciones, entre otros, se requerirían componentes de mejor calidad y alcance para un funcionamiento más eficiente y profesional, y así, evitar riesgos como  fallos en la detección de elementos en el área industrial.
 
 ------------------------------------------------------------------------
 
