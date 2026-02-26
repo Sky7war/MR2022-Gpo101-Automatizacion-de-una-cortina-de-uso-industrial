@@ -38,7 +38,7 @@ Diseñar, implementar y validar la automatización de una cortina industrial con
 
 ## Evidencias
 - Semana 1: (https://github.com/Sky7war/Proyecto-Cortina/tree/main/docs/H1_requisitos)
-- Semana 2: (docs/H2_Sensores)
+- Semana 2: (https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/tree/main/docs/H2_Sensores)
 - Semana 3: (link a evidencia)
 - Semana 4: (link a evidencia)
 - Demo final: (link a evidencia)
