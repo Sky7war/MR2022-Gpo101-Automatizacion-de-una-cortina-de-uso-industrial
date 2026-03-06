@@ -6,6 +6,12 @@
 | 4  | Cortina en posición media |  X |  X |  X |  0  |   1 |   0  |  1  |   1   |  0    |   1   |  Movimiento permitido |
 | 5  | Objeto detectado (zona insegura) | 1/0 | 1/0 | 1  |  X |  X  |  X |   0   |  0  |  1  |  0 | Paro de seguridad |
 | 6  | Zona libre de objetos |  0 |  0 |  0 |  X |  X |  X | según orden | según orden |  0  |  1 | Operación normal | 
-| 7  | Orden subir activa |  0 |  0 |  0 |  0 |  X |  0 |
-| 8  | Orden bajar activa |  0 |  0 |  0 |  0 |  X |  0 |
-| 9  | Orden subir y bajar simultanea | 
+| 7  | Orden subir activa |  0 |  0 |  0 |  0 |  X |  0 |  1 |  0  |  0  |  1  | Interlock motor |
+| 8  | Orden bajar activa |  0 |  0 |  0 |  0 |  X |  0 |  0 |  1  |  0  |  1  | Interlock motor |
+| 9  | Orden subir y bajar simultanea |  X |  X |  X |  X |  X |  X | 0  | 0  |  1  |  0  | Interlock obligatorio |
+
+0 = apagado 
+1 = encendido
+X = cualquier valor
+según orden = depende de la orden del operador o del PLC
+
