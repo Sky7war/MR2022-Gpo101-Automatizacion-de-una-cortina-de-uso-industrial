@@ -11,7 +11,10 @@
 | 9  | Orden subir y bajar simultanea |  X |  X |  X |  X |  X |  X | 0  | 0  |  1  |  0  | Interlock obligatorio |
 
 0 = apagado 
+------------
 1 = encendido
+------------
 X = cualquier valor
+------------
 según orden = depende de la orden del operador o del PLC
-
+------------
