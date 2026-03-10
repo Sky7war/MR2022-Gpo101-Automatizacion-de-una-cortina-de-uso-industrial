@@ -11,5 +11,7 @@ Evidencia 2, se observa el LED del sensor inductivo encendido cuando detecta un 
 
 <img src="https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/blob/main/docs/evidencia/Evidencia_1_H2.jpeg?raw=true" width="400">
 
-- Semana 3: 
+# - Semana 3: 1 video (15–60s): demostrar interlock (intentar condición prohibida y mostrar que el sistema lo impide), además de evidencia de torre de luz reflejando estados.
+https://drive.google.com/file/d/1-Pkg5z0o6WJGXmGSFmduJGHNno99ts2Z/view?usp=sharing
+
 - Semana 4: 
