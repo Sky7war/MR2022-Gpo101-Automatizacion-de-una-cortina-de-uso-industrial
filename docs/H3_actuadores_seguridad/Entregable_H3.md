@@ -15,6 +15,10 @@ Explica la secuencia o lógica implementada en LOGO.
 
 | Salida | Tipo | Función |
 |--------|------|---------|
+| Motor bajar (Q1) | (Se toma como) Digital | Sirve para bajar la cortina una vez llega arriba, se detiene al llegar abajo, cuando se presiona el botón de precaución y cuando se detecta presencia | 
+| Motor subir (Q2) | (Se toma como) Digital | Sirve para subir la cortina una vez llega abajo y pasan los respectivos 10 segundos y se detiene al llegar arriba y cuando se presiona el sensor de emergencia (capacitivo) |
+| Lámpara roja (Q3) | (Se toma como) Digital | Se enciende sola cuando se detiene el motor en la parte de abajo y en conjunto con la luz verde en las luces de alerta cuando se enciende el inductivo o se detecta presencia, también se encienden en los casos de error como detección de cortina en dos lugares diferentes | 
+| Lámpara verde (Q4) | (Se toma como) Digital | Se enciende sola cuando se detiene el motor en la parte de abajo y en conjunto con la luz roja en las luces de alerta cuando se enciende el inductivo o se detecta presencia, también se encienden en los casos de error como detección de cortina en dos lugares diferentes | 
 
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
