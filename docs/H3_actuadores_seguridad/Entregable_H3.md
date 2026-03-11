@@ -2,6 +2,13 @@
 
 ## Descripción de la lógica de control
 Explica la secuencia o lógica implementada en LOGO.
+El logo se programó de una manera un poco diferente a los demás equipos, de manera en que el funcionamiento es el siguiente:
+- Cuando se detecta la cortina arriba esta procede a bajar hasta llegar a la parte de abajo donde se detiene por 10 segundos antes de volver a subir, y en el momento en el que llega a la parte de arriba vuelve a bajar de manera inmediata.
+- Cuando la cortina está en movimiento, ya sea arriba o hacia abajo se enciende la luz roja.
+- Cuando la cortina se detiene en la parte de abajo se enciende la luz verde.
+- Cuando el sensor óptico detecta se encienden ambas luces a manera de precaución, de que hay alguien cerca de la cortina, si se está bajando la cortina esta se detiene con esta detección hasta que pase la persona, pero si se está subiendo no se detiene, simplemente se encienden las dos luces, lo mismo pasa con el inductivo, ya que estos están conectados por una compuerta "or".
+- Cuando el sensor capacitivo detecta se detiene el motor, esté donde esté, y se encienden ambas luces, este es un botón de emergencia para detener el movimiento de la cortina. 
+- En situaciones imposibles como la detección de la cortina en dos puntos diferentes se detiene el motor y se encienden ambas luces.
 
 ## Entradas y salidas
 | Entrada | Tipo | Función |
@@ -22,7 +29,11 @@ Explica la secuencia o lógica implementada en LOGO.
 
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
-|------|------------------|------------------|
+|--------|------|-----|
+| Poner dos imanes en dos sensores diferentes | Que el motor se detenga y se enciendan los focos rojo y verde | Se detuvo el motor y se encendieron ambas luces | 
+| Poner un objeto frente al sensor óptico y/o inductivo mientras baja el motor | Que el motor se detenga y se enciendan los focos rojo y verde | Se detuvo el motor y se encendieron ambas luces |
+| Poner un objeto frente al sensor óptico y/o inductivo mientras sube el motor | Que el motor no se detenga, solo se encienden los focos rojo y verde | Se encendieron ambas luces sin detenerse el motor |
+| Pulsar el sensor capacitivo mientras el motor sube y mientras baja | Que el motor se apague y se enciendan ambas luces roja y verde | El motor se apagó y se encendieron ambas luces roja y verde |
 
 ## Ajustes realizados
-Describe cambios hechos tras las pruebas.
+Las pruebas anteriores se realizaron después de corregir un error en el que código que alteraba todo el funcionamiento del sistema, y es que el sensor inductivo funciona de manera inversa, marca 1 al no detectar y 0 al detectar, por lo que se tuvo que poner una negación en este, pero a partir de esto el funcionamiento ya fue el esperado. 
