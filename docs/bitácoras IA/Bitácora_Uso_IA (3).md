@@ -13,7 +13,7 @@
 Marca una opción:
 
 - ⬜ No se utilizó IA en esta etapa  
-- ⬜ Sí se utilizó IA de forma puntual  
+- 🟩 Sí se utilizó IA de forma puntual  
 - ⬜ Sí se utilizó IA de forma recurrente  
 
 > ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
@@ -33,7 +33,7 @@ Ejemplos:
 **Descripción del objetivo:**
 ```
 
-(escribir aquí)
+Revisar y mejorar la redacción técnica de una de las indicaciones de la bitácora. 
 
 ```
 
@@ -42,7 +42,7 @@ Ejemplos:
 ## 3️⃣ Herramienta(s) de IA utilizada(s)
 Marca las que apliquen:
 
-- ⬜ ChatGPT  
+- 🟩 ChatGPT  
 - ⬜ Copilot  
 - ⬜ Otra (especificar): ______________________  
 
@@ -56,7 +56,7 @@ Copia **solo los prompts más importantes** (no todos).
 **Prompt 1:**
 ```
 
-(pegar prompt aquí)
+ideas para mejorar la redacción en este texto: Se aplicó el funcionamiento de los actuadores y cómo se pueden unir correctamente al LOGO!, gracias a estas conexiones se pudieron realizar las acciones adecuadas hechas por los relés y el sistema de luces; asimismo, se logró que las salidas del PLC activaran los dispositivos en el momento indicado según las señales del sistema. Esto permitió un mejor control del proceso y una correcta integración entre sensores, lógica de control y actuadores dentro del proyecto, para que tenga un toque mas profesional.
 
 ```
 
@@ -74,7 +74,27 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 
 ```
 
-(resumen o extracto aquí)
+Para que suene más profesional y técnico (como en un reporte de ingeniería o de automatización), puedes mejorar principalmente tres cosas:
+
+Usar voz técnica en lugar de frases coloquiales.
+
+Evitar repeticiones como “gracias a estas conexiones” o “se pudieron realizar”.
+
+Usar términos más propios de automatización industrial.
+
+Aquí tienes 3 versiones mejoradas:
+
+Versión 1 (profesional y clara)
+
+Se aplicaron los principios de funcionamiento de los actuadores y su correcta conexión al PLC LOGO!. A través de estas conexiones, los relés y el sistema de iluminación pudieron ser controlados mediante las salidas del controlador. Esto permitió que los dispositivos se activaran en función de las señales del sistema, logrando una adecuada integración entre sensores, lógica de control y actuadores dentro del proyecto.
+
+Versión 2 (más técnica)
+
+Se implementó la correcta conexión de los actuadores al PLC LOGO!, permitiendo que las salidas del controlador accionaran los relés y el sistema de luces según las condiciones establecidas en la lógica de control. De esta manera se aseguró la correcta interacción entre sensores, procesamiento lógico y actuadores, mejorando el control y la eficiencia del sistema automatizado.
+
+Versión 3 (la más tipo reporte académico)
+
+Durante el desarrollo del proyecto se aplicaron los principios de conexión y funcionamiento de los actuadores en un PLC LOGO!. Mediante estas conexiones, las salidas del controlador permitieron el accionamiento de relés y del sistema de iluminación de acuerdo con las señales generadas por el sistema. Esto favoreció la integración adecuada entre sensores, lógica de control y actuadores dentro del proceso automatizado.
 
 ```
 
@@ -85,14 +105,14 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 ### 6.1 ¿Qué parte fue útil?
 ```
 
-(escribir aquí)
+La parte que nos resultó útil como equipo es la manera en la que la IA presentaba las ideas para mejorar la estructura del texto, pues en lugar de mostrar todo un texto sin indicadores de mejoría, se presentaron varias ideas para mejorar la estructura del texto. 
 
 ```
 
 ### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
 ```
 
-(escribir aquí)
+Que entre las 3 ideas hubieran mostrado de una manera más específica los aspectos que pueden mejorar la redacción en cada idea, aunque arriba hay 3 ideas principales que se pueden retomar a la hora de escribir el texto estas no suelen cubrir completamente las 3 versiones de redacción propuestas por la IA.
 
 ```
 
@@ -100,13 +120,13 @@ Resume o copia los fragmentos **relevantes** de la respuesta.
 Marca y explica:
 
 - ⬜ Se utilizó tal como lo propuso la IA  
-- ⬜ Se utilizó parcialmente (adaptado)  
+- 🟩 Se utilizó parcialmente (adaptado)  
 - ⬜ Se rechazó  
 
 **Justificación técnica de la decisión:**
 ```
 
-(escribir aquí)
+Se utilizaron algunas ideas determinadas por la IA, además de las 3 principales se optó también por elegir algunos fragmentos de las 3 versiones para que pudieran encajar con la versión final del texto.
 
 ```
 
@@ -116,7 +136,7 @@ Marca y explica:
 Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
-- ⬜ Prueba en el sistema real  
+- 🟩 Prueba en el sistema real  
 - ⬜ Discusión en equipo  
 - ⬜ Consulta con el profesor  
 - ⬜ Otra: ______________________  
@@ -124,7 +144,7 @@ Indica **cómo se verificó** la información antes de usarla:
 **Evidencia o explicación breve de la verificación:**
 ```
 
-(escribir aquí)
+Comparamos el texto original con las diferentes versiones del texto propuestas por la IA, implementamos algunas de las ideas que la IA propuso y de esa forma nos dimos cuenta que había muchas diferencias entre el texto final y el texto antes de las ideas propuestas, de esa manera y con ayuda de estas comparaciones nos dimos cuenta de como estaba estructurado cada texto.
 
 ```
 
@@ -140,7 +160,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+La IA mejoró la calidad del resultado que se esperaba combinar entre nuestro texto y los aportes hechos por la IA que pueden mejorarlo, asimismo pudo ahorrar tiempo a comparación con pensar vagamente en ideas técnicas o profesionales para mejorar el texto, ideas que suelen tardar minutos debido a factores como modificación constante del texto o la inclusión de ideas erróneas.
 
 ```
 
@@ -151,7 +171,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+A veces la IA suele ser una herramienta que nos puede ayudar a mejorar la calidad de la redacción de un texto profesional y técnico, el uso correcto de la IA para redactar adecuadamente estos textos, beneficia en gran medida nuestra capacidad lingüistica de redacción, ya que gracias a las ideas obtenidas por la IA, se pueden encontrar mejores consejos que pueden moldear la redacción de un texto simple a uno mas profesional. 
 
 ```
 
