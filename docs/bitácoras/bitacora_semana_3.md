@@ -11,13 +11,14 @@ Se realizaron las conexiones faltantes de los actuadores hacia el LOGO!, además
 | Alargar los cables que no tuvieron el tamaño adecuado para conectarlos al LOGO! | Unir los cables con cinta aislante para expandir su longitud |Se optó por usar cinta aislante para cubrir la unión de los cables ya que el material es un buen aislante eléctrico,permite proteger el empalme y reduciendo el riesgo de una descarga eléctrica|
 
 ## Problema técnico encontrado
-No se encontró un problema técnico específico
+Algunas conexiones afectaban directamente a la estructura del LOGO!
 
 ## Solución aplicada
-N/A
+Además del uso de cinta aislante para expandir la longitud de algunos cables, se tuvieron que rehacer con cuidado algunas conexiones tomando como base el diagrama de las conexiones, al momento de rehacer las conexiones le dimos una estructura más clara y uniforme al LOGO!   
 
 ## Conexión con el curso
-Se aplicó el funcionamiento de los actuadores y como se pueden unir correctamente al LOGO!, gracias a estas conexiones se pudieron realizar las acciones adecuadas hechas por los relés y el sistema de luces, asimismo se logró que las salidas activaran el funcionamiento de los actuadores gracias a la programación del logosoft, permitiendo un mejor control del proceso y una integración correcta entre los sensores y actuadores conectados al LOGO!
+Se aplicó el funcionamiento de los actuadores y cómo estos se pueden conectar al PLC, a través de estas conexiones se lograron ejecutar las indicaciones para los relés y la lámpara mediante las señales del controlador.
+Asimismo, la programación del LOGO! Soft logró asegurar las instrucciones dadas para el funcionamiento correcto tanto de los sensores como de los actuadores, permitiendo un mejor control del proceso y una integración correcta entre los sensores y actuadores conectados al LOGO!
 
 ## Autoevaluación
 - ⬜ Muy perdido
