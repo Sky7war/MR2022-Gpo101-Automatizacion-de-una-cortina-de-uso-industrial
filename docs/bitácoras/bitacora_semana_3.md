@@ -8,6 +8,7 @@ Se realizaron las conexiones faltantes de los actuadores hacia el LOGO!, además
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
+| -------- |  ----------- |  ------------ |
 | Alargar los cables que no tuvieron el tamaño adecuado para conectarlos al LOGO! | Unir los cables con cinta aislante para expandir su longitud |Se optó por usar cinta aislante para cubrir la unión de los cables ya que el material es un buen aislante eléctrico,permite proteger el empalme y reduciendo el riesgo de una descarga eléctrica|
 
 ## Problema técnico encontrado
