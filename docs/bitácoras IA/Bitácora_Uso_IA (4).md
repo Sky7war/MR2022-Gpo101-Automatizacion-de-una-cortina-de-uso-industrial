@@ -3,9 +3,9 @@
 
 ## Información general
 - **Equipo:**  
-- **Integrantes:**  
-- **Semana / Hito:** (H1 / H2 / H3 / H4 / H5)  
-- **Fecha:**  
+- **Integrantes:**  Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta
+- **Semana / Hito:** (H4)  
+- **Fecha:**  11/03/2026
 
 ---
 
@@ -378,6 +378,6 @@ Declaramos que:
 - La IA fue utilizada como **apoyo**, no como sustituto del criterio ingenieril.
 
 **Firma del equipo (nombres):**
-```
+``` Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta
 
 
