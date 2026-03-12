@@ -32,7 +32,7 @@ En nuestro caso es un funcionamiento cíclico en el cual se encienden los sensor
 | Sensor óptico (I3) | Colocar un objeto frente al sensor mientras la cortina sube | El motor continúa funcionando y se encienden las lámparas roja y verde    | El motor continuó funcionando y se encendieron ambas lámparas|
 | Sensor magnético superior (I4) | Detectar la cortina en la posición superior | El motor deja de subir y comienza el proceso de bajada   | El motor dejó de subir y comenzó a bajar |
 | Sensor magnético medio (I5) | Detectar la cortina en la posición media | El motor mantiene el movimiento que llevaba | El motor continuó su movimiento sin cambios 
-| Sensor magnético inferior (I6) | Detectar la cortina en la posición inferior | El motor se detiene, se enciende la lámpara verde y después de 10 segundos comienza a subir|El motor se detuvo, se encendió la lámpara verde y después de 10 segundos inició la subida|
+| Sensor magnético inferior (I6) | Detectar la cortina en la posición inferior | El motor se detiene, se enciende la lámpara verde y después de 10 segundos comienza a subir|El motor se detuvo, se encendió la lámpara verde y después de 10 segundos inició la subida,, pero necesitaba mayor rango de detección al igualq ue el superior y el medio|
 
 ## Validación de actuadores
 
@@ -49,6 +49,8 @@ Describe:
 - Temporizaciones
 - Condiciones lógicas
 - Interlocks o seguridades implementadas
+  
+Con el LOGO utilizamos muchas compuertas lógicas de And y Or, con el fin de establecer condiciones base de funcionamiento de la cortina, además de establecer un temporizador de 10 segundos cuando se detectara en el magnético inferior. Para los interlocks que se utilizaron pues fue básicamente que cualquier sensor ajeno a los magnéticos el cual estuviera detectando, tendría que detener por completo la cortina para asegurar la seguridad y resguardo del operador. Se utilizó una programación cíclica para que las pruebas del manejo de la cortina fueran más naturales y seguidas. También, dentro del circuito se utilizó una clema que permitía cerrar y abrir el circuito con el fin de proteger y facilitar la conexión al circuito (Principalmente el LOGO) en caso de algún incidente, fue utilizado de manera recurrente para reiniciar el sistema en un estado de "cortina cerrada" durante las múltiples pruebas del sistema
 
 ## HMI – Interfaz Humano-Máquina
 Describe:
@@ -73,3 +75,4 @@ Indica qué está listo y qué falta por afinar:
 ---
 ## Reflexión breve del equipo
 ¿Qué fue lo más crítico de esta etapa?
+- Lo más crítico en esta parte fue el montaje y la prueba de la programación con los componente ya armados, haciendo énfasis en el montaje debido a que hubo problemas con la manufactura de las piezas que al final se resolvió simplificando el sistema y cambiando de material de impresión; Para la parte de la programación fue un momento crítico porque tuvimos que revisar unos cuantos bugs que aparecían en la lógica del programa haciendo activación de sensores, pero al final se pudo resolver rápidamente. Aprendimos mucho sobre esta experiencia porque copmrendimos la importancia de tener medidas milimétricas y pensar a fondo los posibles errores de lógica y seguridad que podrían tener nuestros proyectos para pdoer administrar e integrar correctamente los interlocks que consideremos necesarios
