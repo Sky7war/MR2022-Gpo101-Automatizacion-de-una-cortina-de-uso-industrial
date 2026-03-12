@@ -12,16 +12,17 @@ Se realizaorn los procesos finales de conexión y prueba para la cortina industr
 |Eliminar el tubo inferior para reducir el peso.|Retirar el tubo para analizar detalladamente el peso necesario del tubo inferior.|El tubo inferior de la cortina tenía un peso que impedía la subida de la cortina, se decidió retirarlo de la cortina, esto para evitar problemas de peso mayor y que la cortina pueda subir correctamente.|
 
 ## Problema técnico encontrado
-La cortina subía a una velocidad considerablemente acelerada que impedía la detección del primer sensor magnético
+La cortina bajaba y subía a una velocidad considerablemente acelerada que impedía la detección del primer sensor magnético
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Al principio se optó por colocar un imán con un tamaño un poco más grande, sin embargo afectaba al peso de la cortina, por lo que otra solución fue ajustar la estructura tanto del sensor magnético inferior como del sensor magnético superior, dicha solución fue efectiva para el funcionamiento de la cortina. 
 
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
+Se aplicó de nueva cuenta el concepto de funcionamiento de los sensores para tener una recapitulación más clara de como podíamos improvisar mejor su funcionamiento, con lo visto las clases pasadas se logró el objetivo de continuar con la reestructuración de los sensores, asimismo se aplicaron los principios básicos de la programación hecha para la interfaz humano-máquina, mejorando la eficacia de la cortina con los fundamentos correctos que necesita para su implementación 
+
 
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
-- ⬜ Entendiendo
+- 🟩 Entendiendo
 - ⬜ Dominando
