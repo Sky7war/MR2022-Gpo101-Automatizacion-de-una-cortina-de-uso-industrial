@@ -5,7 +5,7 @@ La situación problema consiste en realizar un sistema mecatrónico donde se dis
 
 ## Arquitectura del sistema
 Insertar un diagrama de bloques.
-(https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/blob/main/docs/H1_requisitos/Entregable_H1.md#diagrama-de-bloques)
+<img width="684" height="473" alt="Captura" src="https://github.com/user-attachments/assets/dff8c7f9-7511-44b6-8f18-90622c1e9a6d" />
 
 [Sensores] → [Siemens LOGO] → [Relés] → [Motor DC]
 
