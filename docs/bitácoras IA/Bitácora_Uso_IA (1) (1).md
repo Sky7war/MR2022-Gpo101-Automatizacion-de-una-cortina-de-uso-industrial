@@ -1,0 +1,225 @@
+```markdown
+# Bitácora de Uso de Inteligencia Artificial (IA)
+
+## Información general
+- **Equipo:**  
+- **Integrantes: Daniel Sopeña Zamora, Adolfo Javier Barrientos López, Leopoldo Ramírez Sánchez, Victor Manuel Zamudio Zazueta 
+- **Semana / Hito:** (H1)  
+- **Fecha: 18/02/26
+
+---
+
+## 1️⃣ Uso de IA en esta etapa
+Marca una opción:
+
+- ⬜ No se utilizó IA en esta etapa  
+- ✅ Sí se utilizó IA de forma puntual  
+- ⬜ Sí se utilizó IA de forma recurrente  
+
+> ⚠️ Si marcas “No se utilizó IA”, completa únicamente las secciones 7, 8 y 9.
+
+---
+
+## 2️⃣ Objetivo del uso de IA
+Describe **para qué** se utilizó la IA (no qué herramienta).
+
+Ejemplos:
+- Comprender un concepto técnico
+- Generar alternativas de diseño
+- Revisar redacción técnica
+- Proponer estructura de pruebas
+- Detectar errores lógicos
+
+**Descripción del objetivo:**
+```
+
+La IA se utilizó para la generación de ideas para encontrar soluciones más óptimas acorde a lo que queremos buscar como objetivo principal para la cortina, se utilizó también para buscar una comprensión de varios términos útiles para la investigación, tratando de buscar un significado que esté acorde a lo que queremos definir correctamente para este proyecto. 
+
+```
+
+---
+
+## 3️⃣ Herramienta(s) de IA utilizada(s)
+Marca las que apliquen:
+
+- ✅ ChatGPT  
+- ⬜ Copilot  
+- ⬜ Otra (especificar): ______________________  
+
+---
+
+## 4️⃣ Prompts relevantes utilizados
+Copia **solo los prompts más importantes** (no todos).
+
+> Regla: si no puedes mostrar el prompt, no lo declares como uso válido.
+
+**Prompt 1:**
+```
+
+Crea 10 ejemplos de requisitos de seguridad para una cortina industrial que funciona con un plc LOGO con clemas
+(imagen adjuntada del diagrama)
+```
+
+**Prompt 2 (opcional):**
+```
+
+(pegar prompt aquí)
+
+```
+
+---
+
+## 5️⃣ Respuesta(s) obtenida(s) de la IA
+Resume o copia los fragmentos **relevantes** de la respuesta.
+
+```
+
+Estás trabajando con un Siemens LOGO! alimentado con 24VDC, con entradas I1–I8 y salidas Q1–Q4 cableadas a sensores y actuadores (S1–S8).
+Veo que tienes:
+
+Sensores capacitivos e inductivos
+
+Sensores magnéticos (cortina arriba/medio/abajo)
+
+Salidas con protección
+
+Clemas distribuidoras de 24V y 0V
+
+Ahora sí, te actualizo los 10 requisitos de seguridad completamente alineados a TU esquema real 👇
+
+🛑 Requisitos de Seguridad – Cortina con LOGO! y Clemas (Versión Ajustada al Diagrama)
+1️⃣ Estado seguro al energizar
+
+RS-01: Al aplicar alimentación 24VDC al PLC, todas las salidas Q1–Q4 deberán iniciar en estado desactivado.
+
+2️⃣ Interbloqueo de salidas
+
+RS-02: El sistema no deberá activar simultáneamente Q1 (subir) y Q2 (bajar).
+
+(Protección del motor y relevadores)
+
+3️⃣ Supervisión de sensor magnético superior
+
+RS-03: Si el sensor S4 (Cortina ARRIBA) está activo, el sistema deberá bloquear cualquier orden de subida.
+
+4️⃣ Supervisión de sensor magnético inferior
+
+RS-04: Si el sensor S6 (Cortina ABAJO) está activo, el sistema deberá bloquear cualquier orden de bajada.
+
+5️⃣ Protección por tiempo de recorrido
+
+RS-05: Si después de activar una orden de movimiento no se detecta cambio en los sensores S4, S5 o S6 dentro del tiempo esperado, el PLC deberá desactivar el motor.
+
+6️⃣ Bloqueo por falla de sensor crítico
+
+RS-06: Si los sensores S4 y S6 se detectan activos simultáneamente, el sistema deberá entrar en estado de bloqueo.
+
+(Condición físicamente imposible → error lógico)
+
+7️⃣ Protección ante activación permanente
+
+RS-07: Si el sensor capacitivo (S1) permanece activado por más de X segundos, el sistema no deberá mantener movimiento continuo.
+
+8️⃣ Reinicio controlado
+
+RS-08: Después de una interrupción de energía, el sistema deberá requerir una nueva señal válida para iniciar movimiento.
+
+9️⃣ Separación de potencia y señal
+
+RS-09: El cableado de las salidas Q1–Q4 deberá estar separado físicamente del cableado de entradas I1–I8 en las clemas.
+
+🔟 Estado seguro ante pérdida de señal
+
+RS-10: Si durante el movimiento se pierde la señal de alimentación de sensores, el PLC deberá desactivar las salidas de movimiento.
+
+```
+
+---
+
+## 6️⃣ Evaluación crítica del equipo (OBLIGATORIA)
+
+### 6.1 ¿Qué parte fue útil?
+```
+
+(escribir aquí)
+
+```
+
+### 6.2 ¿Qué parte fue incorrecta, incompleta o no aplicable?
+```
+
+(escribir aquí)
+
+```
+
+### 6.3 Decisión final del equipo
+Marca y explica:
+
+- ⬜ Se utilizó tal como lo propuso la IA  
+- ⬜ Se utilizó parcialmente (adaptado)  
+- ⬜ Se rechazó  
+
+**Justificación técnica de la decisión:**
+```
+
+(escribir aquí)
+
+```
+
+---
+
+## 7️⃣ Verificación humana (OBLIGATORIA)
+Indica **cómo se verificó** la información antes de usarla:
+
+- ⬜ Comparación con apuntes/clase  
+- ⬜ Prueba en el sistema real  
+- ✅ Discusión en equipo  
+- ⬜ Consulta con el profesor  
+- ⬜ Otra: ______________________  
+
+**Evidencia o explicación breve de la verificación:**
+```
+
+(escribir aquí)
+
+```
+
+---
+
+## 8️⃣ Impacto del uso de IA en el proyecto
+Reflexiona brevemente:
+
+- ¿La IA ahorró tiempo?
+- ¿Mejoró la comprensión del problema?
+- ¿Introdujo confusión?
+- ¿Mejoró la calidad del resultado?
+
+```
+
+(escribir aquí)
+
+```
+
+---
+
+## 9️⃣ Aprendizaje del equipo sobre el uso de IA
+¿Qué aprendieron sobre **cómo usar (o no usar)** IA en un proyecto de ingeniería?
+
+```
+
+(escribir aquí)
+
+```
+
+---
+
+## 🔚 Declaración de honestidad
+Declaramos que:
+- El uso de IA aquí documentado es **veraz y completo**.
+- Las decisiones finales fueron tomadas por el equipo.
+- La IA fue utilizada como **apoyo**, no como sustituto del criterio ingenieril.
+
+**Firma del equipo (nombres):**
+```
+
+
