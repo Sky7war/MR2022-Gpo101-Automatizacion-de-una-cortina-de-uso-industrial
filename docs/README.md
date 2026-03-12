@@ -4,7 +4,6 @@
 La situación problema consiste en realizar un sistema mecatrónico donde se diseña, implementa y valida la automatización de una cortina industrial considerando elementos como seguridad, operación, componentes e interfaz de usuario, controlando cuándo se cierra y abre mediante sensores, mejorando así la eficiencia operativa, reduciendo la intervención manual y aumentando la seguridad del usuario. Además, con la opción de poder configurar parámetros como tiempos y velocidades, garantizando un funcionamiento adaptable a los requerimientos.
 
 ## Arquitectura del sistema
-Diagrama de bloques:
 
 <img width="600" height="473" alt="Captura" src="https://github.com/user-attachments/assets/dff8c7f9-7511-44b6-8f18-90622c1e9a6d" />
 
