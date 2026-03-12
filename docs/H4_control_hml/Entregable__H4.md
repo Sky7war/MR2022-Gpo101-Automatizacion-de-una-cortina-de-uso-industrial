@@ -57,20 +57,19 @@ Describe:
 - Acciones disponibles para el usuario
 Adjunta captura(s) de pantalla del HMI.
 
-## Fallas detectadas
-Describe **máximo 3** fallas relevantes encontradas durante la validación.
+A pesar de sí haber hecho la interfaz en LWE, esta no se pudo implementar dentro del LOGO debido a la imposibilidad de pasar nuestro código del logo a la computadora por conexión alámbrica, por lo que se tiene solo una imagen de cómo estaba pleneada la interfaz humano-máquina de verse 
 
-## Ajustes realizados
-| Falla | Ajuste realizado | Resultado |
-|----|-----------------|----------|
+<img width="618" height="497" alt="image" src="https://github.com/user-attachments/assets/a5c877e4-c37b-4cc3-a3fb-3201291c9b10" />
+
+Debido a todo esto es que no se podrán hacer pruebas con la interfaz correspondientes a las condiciones que probamos en código y en la vida real, por lo que no se incluye matriz de pruebas, resultados de estas ni se realizaron ajustes. 
 
 ## Preparación para demostración final
 Indica qué está listo y qué falta por afinar:
-- Lógica de control⬜
-- HMI⬜
-- Cableado⬜
-- Seguridad⬜
-- Evidencias (video/fotos)⬜
+- Lógica de control ✔
+- HMI ✖ (no fue posible de implementar aunque hasta cierto punto se hizo)
+- Cableado ✔
+- Seguridad ✔
+- Evidencias (video/fotos) ✔
 ---
 ## Reflexión breve del equipo
 ¿Qué fue lo más crítico de esta etapa?
