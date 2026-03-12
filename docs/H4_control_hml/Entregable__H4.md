@@ -69,7 +69,7 @@ Debido a todo esto es que no se podrán hacer pruebas con la interfaz correspond
 Indica qué está listo y qué falta por afinar:
 - Lógica de control ✔
 - HMI ✖ (no fue posible de implementar aunque hasta cierto punto se hizo)
-- Cableado ✔
+- Cableado ✔ (Con gran área de oportunidad
 - Seguridad ✔
 - Evidencias (video/fotos) ✔
 ---
