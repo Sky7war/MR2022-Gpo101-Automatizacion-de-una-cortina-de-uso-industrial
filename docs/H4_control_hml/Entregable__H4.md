@@ -76,3 +76,30 @@ Indica qué está listo y qué falta por afinar:
 ## Reflexión breve del equipo
 ¿Qué fue lo más crítico de esta etapa?
 - Lo más crítico en esta parte fue el montaje y la prueba de la programación con los componente ya armados, haciendo énfasis en el montaje debido a que hubo problemas con la manufactura de las piezas que al final se resolvió simplificando el sistema y cambiando de material de impresión; Para la parte de la programación fue un momento crítico porque tuvimos que revisar unos cuantos bugs que aparecían en la lógica del programa haciendo activación de sensores, pero al final se pudo resolver rápidamente. Aprendimos mucho sobre esta experiencia porque copmrendimos la importancia de tener medidas milimétricas y pensar a fondo los posibles errores de lógica y seguridad que podrían tener nuestros proyectos para pdoer administrar e integrar correctamente los interlocks que consideremos necesarios
+
+## Tabla Pass or FAIL
+
+| # Intento  | Resultado obtenido |
+|--- | ---------------------- | 
+| 1 | FAIL |
+|2 | FAIL |
+|3 | PASS |
+| 4 | FAIL |
+|5 | FAIL |
+|6 | FAIL |
+| 7 | FAIL |
+|8 | FAIL |
+|9 | PASS |
+| 10 | FAIL |
+|11 | FAIL |
+|12 | FAIL |
+| 13 | FAIL |
+|14 | PASS |
+|15 | PASS |
+| 16 | PASS |
+|17 | PASS |
+|18 | PASS |
+|19 | PASS |
+|20 | PASS |
+
+Se realizaron un total de aproximadamente 20 pruebas con el fin de obtener resultados satisfactorios o incluir mejoras para el sistema, después de una larga racha de FAIL y unos cuantos milagros de PASS, resolvimos unos problemas ocn el diseño y el hardware de nuestro sistema y las pruebas comenzaron a presentar estado "PASS". A pesar de no tener evidencia debido a situación momentánea para corregir el proyecto, el profesor estuvo presente durante casi todas las pruebas viendo nuestro progreso, al final en la última prueba el profesor observó de manera directa nuestra prueba exitosa para poder darle el "visto bueno".
