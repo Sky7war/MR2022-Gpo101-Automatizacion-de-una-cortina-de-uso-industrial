@@ -12,7 +12,7 @@ En nuestro caso es un funcionamiento cíclico en el cual se encienden los sensor
  
 ## Evidencias
 
-- Video de evidencia con comprobación de todo el funcionamiento: https://youtube.com/shorts/E8f3wX41GGI?feature=share
+- Video de evidencia con comprobación de todo el funcionamiento: https://drive.google.com/file/d/1l6njuWS0FrmbVFWxYHiuuphqV2ezXxQm/view?usp=sharing
   
 ## Validación del sistema
 
