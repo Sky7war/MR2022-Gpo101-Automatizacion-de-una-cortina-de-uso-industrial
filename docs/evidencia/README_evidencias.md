@@ -14,4 +14,5 @@ Evidencia 2, se observa el LED del sensor inductivo encendido cuando detecta un 
 # - Semana 3: 1 video (15–60s): demostrar interlock (intentar condición prohibida y mostrar que el sistema lo impide), además de evidencia de torre de luz reflejando estados.
 https://drive.google.com/file/d/1-Pkg5z0o6WJGXmGSFmduJGHNno99ts2Z/view?usp=sharing
 
-- Semana 4: 
+# - Semana 4: HMI planificado
+<img width="618" height="497" alt="image" src="https://github.com/user-attachments/assets/bca61bd0-d8e7-4266-af56-b124c3f9371d" />
