@@ -10,14 +10,14 @@ La situación problema consiste en realizar un sistema mecatrónico donde se dis
 [Sensores] → [Siemens LOGO] → [Relés] → [Motor DC]
 
 ## Componentes utilizados
-- Sensor inductivo
-- Sensor capacitivo
-- Sensor óptico
-- Sensor magnético
-- Siemens LOGO (modelo: 12/24 rce)
-- Relés
-- Motor DC 24V
-- Torre de luces
+- Sensor inductivo (LJ12A3-4-Z/BX)
+- Sensor capacitivo (LJC18A3-B-Z/BX)
+- Sensor óptico (E3F-DS30P1)
+- Sensor magnético (FESTO SME-8M-DS-24V-K-2,5-OE)
+- Siemens LOGO (12/24 RCE)
+- Relevador Industrial HH54P (MY4NJ)
+- Motor 24VDC
+- Torre de luces (ANDON de 3 colores)
 
 ## Lógica de control
 Descripción breve del funcionamiento.
