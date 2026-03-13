@@ -30,6 +30,9 @@ https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-in
 ## Video demo
 (link al video)
 
+## Evidencias
+
+
 ## Equipo
 Integrantes del proyecto:
 - Daniel Sopeña Zamora (A00573479) - @Sky7war
