@@ -4,8 +4,6 @@
 
 ## Práctica: Conexión y validación de sensores con Siemens LOGO
 
-## Equipo: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
 ## Integrantes: 
   - Daniel Sopeña Zamora 
   - Adolfo-Javier Barrientos López
