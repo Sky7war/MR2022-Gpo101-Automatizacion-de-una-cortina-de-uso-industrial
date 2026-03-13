@@ -31,7 +31,7 @@ https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-in
 (link al video)
 
 ## Evidencias
-
+https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/blob/main/docs/evidencia/README_evidencias.md#evidencias-semanales
 
 ## Equipo
 Integrantes del proyecto:
