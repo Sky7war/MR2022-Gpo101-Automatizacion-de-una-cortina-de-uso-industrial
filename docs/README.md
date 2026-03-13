@@ -23,7 +23,9 @@ La situación problema consiste en realizar un sistema mecatrónico donde se dis
 Descripción breve del funcionamiento.
 
 ## Resultados de pruebas
-Tabla de detección de sensores o pruebas del sistema.
+Pruebas de detección de sensores y pruebas del sistema.
+
+https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/blob/main/docs/H2_Sensores/MR2022_Registro_Pruebas_Sensores_Proximidad.md#mr2022----registro-experimental-de-pruebas-de-sensores-de-proximidad
 
 ## Video demo
 (link al video)
