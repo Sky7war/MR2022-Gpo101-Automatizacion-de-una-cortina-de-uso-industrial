@@ -20,7 +20,13 @@ La situación problema consiste en realizar un sistema mecatrónico donde se dis
 - Torre de luces (ANDON de 3 colores)
 
 ## Lógica de control
-Descripción breve del funcionamiento.
+En nuestro caso es un funcionamiento cíclico en el cual se encienden los sensores y esto va creando algunas modificaciones en el ciclo, pero este de todas formas se vuelve a iniciar.
+
+1. Al encenderse la cortina lo que hace inmediatamente es detectar en donde se encuentra.
+2. Dependiendo del lugar en el que se encuentre sube o baja, según sea el caso.
+3. Al terminar de bajar se detiene por 10 segundos antes de volver a subir, pero al subir vuelve a bajar de inmediato.
+4. Si se detecta alguna persona o algún material por parte de el motor óptico o inductivo se detiene en el caso de estar bajando y se encienden las luces verde y roja a manera de alerta, pero si está subiendo solo se encienden las luces de alerta.
+5. En cualquier caso, si se presiona el sensor capacitivo (botón de emergencia) se detiene por completo la cortina, y se encienden las luces de alerta.
 
 ## Resultados de pruebas
 Pruebas de detección de sensores y pruebas del sistema.
@@ -28,7 +34,7 @@ Pruebas de detección de sensores y pruebas del sistema.
 https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/blob/main/docs/H2_Sensores/MR2022_Registro_Pruebas_Sensores_Proximidad.md#mr2022----registro-experimental-de-pruebas-de-sensores-de-proximidad
 
 ## Video demo
-(link al video)
+https://youtube.com/shorts/E8f3wX41GGI?feature=share
 
 ## Evidencias
 https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-industrial/blob/main/docs/evidencia/README_evidencias.md#evidencias-semanales
