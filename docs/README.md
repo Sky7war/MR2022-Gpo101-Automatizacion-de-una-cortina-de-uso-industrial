@@ -32,7 +32,7 @@ https://github.com/Sky7war/MR2022-Gpo101-Automatizacion-de-una-cortina-de-uso-in
 
 ## Equipo
 Integrantes del proyecto:
-- Daniel Sopeña Zamora - @Sky7war
-- Adolfo Javier Barrientos López - @Modorfeus
-- Victor Manuel Zamudio Zazueta - @vicman-6174
-- Leopoldo Ramírez Sánchez - @A00574867
+- Daniel Sopeña Zamora (A00573479) - @Sky7war
+- Adolfo Javier Barrientos López (A00573560) - @Modorfeus
+- Victor Manuel Zamudio Zazueta (A00573456) - @vicman-6174
+- Leopoldo Ramírez Sánchez (A00574867) - @A00574867
